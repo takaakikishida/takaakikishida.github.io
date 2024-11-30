@@ -1,0 +1,47 @@
+---
+title: ""
+---
+
+
+:::{.grid}
+
+::: {.column width="23%"}
+![](/image/photo.jpg){.profile-pic}
+
+<!-- ### Takaaki Kishida -->
+<span style="font-size: 21px;">**Takaaki Kishida**</span>  
+<span style="font-size: 14px;">PhD Student</span>  
+<span style="font-size: 14px;">University of Geneva</span>
+:::
+
+::: {.column width="77%"}
+I am a PhD student in Economics at the [Institute of Economics and Econometrics](https://www.unige.ch/gsem/en/research/institutes/iee/){target="_blank"}, GSEM, University of Geneva, Switzerland.
+
+My research interests lie at the intersection of **environmental**, **development**, and **health** economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large **surveys**, **(satellite) remote sensing**, and other **spatial/GIS** data.
+
+\
+<!-- **Contact and Links**:   -->
+Email: Takaaki.Kishida@unige.ch  
+[CV](link-to-cv.pdf) | [ORCID](https://orcid.org/0009-0002-1698-6399){target="_blank"} | [GitHub](https://github.com/takaakikishida){target="_blank"} | [LinkedIn](https://www.linkedin.com/in/takaakikishida/){target="_blank"}
+:::
+
+:::
+
+
+<!-- Hoge hoge hoge -->
+
+\
+
+### Recent News
+- **Publication**: [Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"} (2024, *Journal of Development Studies*)
+![](/image/forest_loss_2012.jpeg)
+<!-- <img src="image/forest_loss_2012.jpeg" width="750"> -->
+
+
+\
+
+### Other Works
+- **Package**: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
+- **Note**: About project management
+- **Note**: Replication and translation exercises
+- **Shiny App**: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland

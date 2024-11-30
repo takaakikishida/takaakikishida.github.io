@@ -1,0 +1,96 @@
+---
+title: "Research"
+toc: false
+
+header-includes: |
+    <style>
+    h2 {
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    </style>
+---
+
+<!-- Feel free to text me if you don't have access to the full text or PDF. -->
+\
+
+## Working Papers
+
+- Rent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland<br>
+  &emsp; <span class="co-author">with Sébastien Houde and Harald Mayr</span>
+
+- Revisiting Birth Order Effects on Child Health: Evidence from Bangladesh <br>
+  &emsp; <span class="co-author">with Masanori Matsuura-Kannari and Abu Hayat Md. Saiful Islam</span>
+
+
+
+## Journal Publications
+
+<ol reversed>
+  <!-- --- -->
+  <!-- <li> -->
+  <!--   **Title**<br> -->
+  <!--   &emsp; Kishida, T.<br> -->
+  <!--   &emsp; *Journal Name*, 2025<span class="co-author">, xx-xx</span><br> -->
+  <!-- </li> -->
+  <!-- --- -->
+  <li>
+    **Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia**<br>
+    &emsp; <span class="author-self">Kishida, T.</span>
+    <span class="co-author">, Ito, T., Yamamoto, Y.</span><br>
+    &emsp; *Journal of Development Studies*, 2024
+    <span class="co-author">, 1-18</span><br>
+    &emsp; +Abstract | +BibTex | [PDF](https://takaakikishida.github.io/research/file/2024_JDS_Kishida_Deforestation_and_Children.pdf){target="_blank"} | [Journal Website](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"}<br>
+    &emsp; ![](/image/forest_loss_2012.jpeg)
+  </li>
+</ol>
+
+<!-- 1. **Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia**<br> -->
+<!--   <span class="author-self">Kishida, T.</span><span class="co-author">, Ito, T., Yamamoto, Y.</span><br> -->
+<!--   *Journal of Development Studies*, 2024<span class="co-author">, 1-18</span><br> -->
+<!--   +Abstract | +BibTex | [PDF](https://takaakikishida.github.io/file/2024_JDS_Kishida_Deforestation_and_Children.pdf){target="_blank"} | [Journal Website](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"} -->
+<!--   ![](/image/forest_loss_2012.jpeg) -->
+
+
+
+## Work in Progress
+
+- Air Pollution and Worker Productivity: Evidence from Nationally Representative Surveys in South Asia
+
+- Sunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses<br>
+  &emsp; <span class="co-author">with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A. </span>
+
+
+
+## Other Journal Publications (in Interdisciplinary Fields)
+
+<!-- https://stackoverflow.com/questions/77771258/can-quarto-render-a-descending-ordered-markdown-list-into-revealjs -->
+
+<ol reversed>
+  <li>
+    Effect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR<br>
+    &emsp; <span class="co-author">Kamiya, Y., </span>
+    <span class="author-self">Kishida, T.</span><br>
+    &emsp; *Asia Pacific Journal of Public Health*, 2023
+    <span class="co-author">, 35(8):494-501</span><br>
+  </li>
+  <!-- --- -->
+  <li>
+    The Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin<br>
+    &emsp; <span class="co-author">Tanou, M., </span>
+    <span class="author-self">Kishida, T.</span>
+    <span class="co-author">, Kamiya, Y.</span><br>
+    &emsp; *Global Journal of Health Science*, 2022
+    <span class="co-author">, 14, 7, 19-31</span><br>
+  </li>
+  <!-- --- -->
+  <li>
+    The effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study<br>
+    &emsp; <span class="co-author">Tanou, M., </span>
+    <span class="author-self">Kishida, T.</span>
+    <span class="co-author">, Kamiya, Y.</span><br>
+    &emsp; *BMC Reproductive Health*, 2021<span class="co-author">, 18, 205</span><br>
+  </li>
+</ol>

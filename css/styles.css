@@ -1,0 +1,97 @@
+/* ---------- Font size ---------- */
+h1 {
+  font-size: 1.95em; /* default is about 2.5em */
+}
+
+h2 {
+  font-size: 1.45em; /* default: 2em */
+}
+
+h3 {
+  font-size: 1.15em; /* default: 1.75em */
+}
+
+
+/* ---------- Font color ---------- */
+.author-self {
+  color: #585858;
+  font-weight: normal;
+  /* font-weight: bold; */
+}
+
+.co-author {
+  color: #979797;
+  font-weight: normal;
+}
+
+
+/* ---------- Margin (before sections) ---------- */
+h2 {
+  margin-top: 60px;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+
+/* li内の余計なスペースを削除 */
+ol > li {
+  margin-bottom: 10px; /* リスト間のスペースは調整 */
+}
+
+/* li内のbrタグ間のスペースを最小化 */
+ol > li br {
+  line-height: 1; /* 必要に応じて変更 */
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ---------- Top ---------- */
+.profile-pic {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; /* テキストと高さを揃える */
+}
+
+.grid {
+  display: flex;
+  align-items: flex-start; /* 上端で揃える */
+  gap: 20px;
+  margin-top: 0px;
+}
+
+.column {
+  flex: 1;
+}
+
+
+
+/* ---------- 折りたたみ ---------- */
+
+/* TBC */
+
+
+
+/* ---------- リンクのスタイル設定 ---------- */
+a {
+  color: #267CB9; /* 好みのリンクカラーに変更可能 */
+  text-decoration: none; /* デフォルトでは下線を表示しない */
+}
+
+
+/* ホバー時のリンクスタイル */
+a:hover {
+  text-decoration: underline; /* カーソルを合わせたときのみ下線を表示 */
+}
+
+
+/* ---------- Indent ---------- */
+.indented {
+    margin-left: 20px !important;
+}
+
+
+
+

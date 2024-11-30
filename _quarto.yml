@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Takaaki Kishida"
+  description: "PhD Candidate in Economics"
+  favicon: /image/icon/favicon.ico
+  search: false
+  navbar:
+    background: "#536878"
+    right:
+      - href: cv/index.qmd
+        text: "CV"
+      - href: research/index.qmd
+        text: "Research"
+      - href: note/index.qmd
+        text: "Note"
+      - href: fieldworkgallery/index.qmd
+        text: "Fieldwork Gallery"
+
+format:
+  html:
+    theme: cosmo
+    css: css/styles.css
+    toc: false
+
+# editor: visual
+
