@@ -1,0 +1,69 @@
+---
+title: "Flexible Regression with `{fixest}`"
+toc: true
+
+header-includes: |
+    <style>
+    h1.title {
+      text-align: center;
+      margin-top: 15px;
+    }
+    h2 {
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    </style>
+---
+
+\
+
+## Overview
+
+- Still under construction.
+- This note demonstrates flexible regression analyses and table outputs with the `{fixest}` package.
+
+
+
+## Read Data
+
+```{r}
+pacman::p_load(tidyverse, fixest)
+
+df <- read_csv("https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv")
+
+df |> glimpse()
+```
+
+
+## Combine Estimation Results using `etable()`
+
+```{r}
+# Reg 1
+
+reg1 <- feols(
+  wage ~ educ + age,
+  df
+)
+
+reg1
+reg1 |> etable()
+
+
+# Reg 2
+
+reg2 <- feols(
+  wage ~ educ + age + black + marr | 
+    countyfips + year,
+  df, 
+  vcov = ~countyfips + year
+)
+
+reg2
+reg2 |> etable()
+
+# Combine the two tables
+
+etable(reg1, reg2)
+```

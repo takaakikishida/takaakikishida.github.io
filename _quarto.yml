@@ -21,6 +21,7 @@ website:
 
 format:
   html:
+    clean-urls: true
     theme: cosmo
     css: css/styles.css
     toc: false

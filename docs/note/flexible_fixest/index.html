@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Research – Takaaki Kishida</title>
+<title>Flexible Regression with {fixest} – Takaaki Kishida</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,22 +20,56 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<link href="..//image/icon/favicon.ico" rel="icon">
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<link href="../..//image/icon/favicon.ico" rel="icon">
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -65,17 +99,17 @@ h3 {
 </style>
 
 
-<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../../css/styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Takaaki Kishida</span>
     </a>
   </div>
@@ -85,19 +119,19 @@ h3 {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.qmd"> 
+    <a class="nav-link" href="../../cv/index.qmd"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../note/index.html"> 
+    <a class="nav-link" href="../../note/index.html"> 
 <span class="menu-text">Note</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../fieldworkgallery/index.qmd"> 
+    <a class="nav-link" href="../../fieldworkgallery/index.qmd"> 
 <span class="menu-text">Fieldwork Gallery</span></a>
   </li>  
 </ul>
@@ -111,13 +145,23 @@ h3 {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#read-data" id="toc-read-data" class="nav-link" data-scroll-target="#read-data">Read Data</a></li>
+  <li><a href="#combine-estimation-results-using-etable" id="toc-combine-estimation-results-using-etable" class="nav-link" data-scroll-target="#combine-estimation-results-using-etable">Combine Estimation Results using <code>etable()</code></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Flexible Regression with <code>{fixest}</code></h1>
 </div>
 
 
@@ -134,59 +178,165 @@ h3 {
 </header>
 
 
-<!-- Feel free to text me if you don't have access to the full text or PDF. -->
 <p><br>
 </p>
-<section id="working-papers" class="level2">
-<h2 class="anchored" data-anchor-id="working-papers">Working Papers</h2>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <ul>
-<li><p>Rent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland<br>   <span class="co-author">with Sébastien Houde and Harald Mayr</span></p></li>
-<li><p>Revisiting Birth Order Effects on Child Health: Evidence from Bangladesh <br>   <span class="co-author">with Masanori Matsuura-Kannari and Abu Hayat Md. Saiful Islam</span></p></li>
+<li>Still under construction.</li>
+<li>This note demonstrates flexible regression analyses and table outputs with the <code>{fixest}</code> package.</li>
 </ul>
 </section>
-<section id="journal-publications" class="level2">
-<h2 class="anchored" data-anchor-id="journal-publications">Journal Publications</h2>
-<ol reversed="">
-<!-- --- -->
-<!-- <li> -->
-<!--   **Title**<br> -->
-<!--   &emsp; Kishida, T.<br> -->
-<!--   &emsp; *Journal Name*, 2025<span class="co-author">, xx-xx</span><br> -->
-<!-- </li> -->
-<!-- --- -->
-<li>
-<strong>Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia</strong><br>   <span class="author-self">Kishida, T.</span> <span class="co-author">, Ito, T., Yamamoto, Y.</span><br>   <em>Journal of Development Studies</em>, 2024 <span class="co-author">, 1-18</span><br>   +Abstract | +BibTex | <a href="https://takaakikishida.github.io/research/file/2024_JDS_Kishida_Deforestation_and_Children.pdf" target="_blank">PDF</a> | <a href="https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561" target="_blank">Journal Website</a><br>   <img src="../image/forest_loss_2012.jpeg" class="img-fluid">
-</li>
-</ol>
-<!-- 1. **Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia**<br> -->
-<!--   <span class="author-self">Kishida, T.</span><span class="co-author">, Ito, T., Yamamoto, Y.</span><br> -->
-<!--   *Journal of Development Studies*, 2024<span class="co-author">, 1-18</span><br> -->
-<!--   +Abstract | +BibTex | [PDF](https://takaakikishida.github.io/file/2024_JDS_Kishida_Deforestation_and_Children.pdf){target="_blank"} | [Journal Website](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"} -->
-<!--   ![](/image/forest_loss_2012.jpeg) -->
+<section id="read-data" class="level2">
+<h2 class="anchored" data-anchor-id="read-data">Read Data</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, fixest)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 47976 Columns: 19
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (1): statefips
+dbl (18): id, treat, age, educ, black, hisp, marr, nodegree, year, wage, x1,...
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 47,976
+Columns: 19
+$ id         &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, …
+$ treat      &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1,…
+$ age        &lt;dbl&gt; 45, 21, 38, 48, 18, 22, 48, 18, 48, 45, 34, 16, 53, 19, 27,…
+$ educ       &lt;dbl&gt; 11, 14, 12, 6, 8, 11, 10, 11, 9, 12, 14, 10, 10, 12, 12, 10…
+$ black      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…
+$ hisp       &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…
+$ marr       &lt;dbl&gt; 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0,…
+$ nodegree   &lt;dbl&gt; 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0,…
+$ year       &lt;dbl&gt; 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974,…
+$ wage       &lt;dbl&gt; 21516.6699, 3175.9709, 23039.0195, 24994.3691, 1669.2950, 1…
+$ x1         &lt;dbl&gt; 0.04937047, 0.37316579, 0.83696927, 0.49122805, 0.51762141,…
+$ x2         &lt;dbl&gt; 0.972925922, 0.600960515, 0.660624120, 0.354983920, 0.73535…
+$ x3         &lt;dbl&gt; 0.2415946, 0.5584978, 0.1053317, 0.8371334, 0.8867501, 0.40…
+$ x4         &lt;dbl&gt; 0.4753968, 0.2689705, 0.2597347, 0.7493716, 0.3768940, 0.14…
+$ row        &lt;dbl&gt; 46, 9, 18, 48, 47, 24, 32, 38, 41, 15, 5, 40, 35, 41, 6, 19…
+$ statefips  &lt;chr&gt; "01", "01", "01", "01", "01", "01", "01", "01", "01", "01",…
+$ countyfips &lt;dbl&gt; 91, 17, 35, 95, 93, 47, 63, 75, 81, 29, 9, 79, 69, 81, 11, …
+$ lon        &lt;dbl&gt; -87.78879, -85.28875, -87.00211, -86.28888, -87.87874, -87.…
+$ lat        &lt;dbl&gt; 32.33174, 32.89123, 31.41561, 34.32960, 34.11633, 32.37994,…</code></pre>
+</div>
+</div>
 </section>
-<section id="work-in-progress" class="level2">
-<h2 class="anchored" data-anchor-id="work-in-progress">Work in Progress</h2>
-<ul>
-<li><p>Air Pollution and Worker Productivity: Evidence from Nationally Representative Surveys in South Asia</p></li>
-<li><p>Sunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses<br>   <span class="co-author">with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A. </span></p></li>
-</ul>
-</section>
-<section id="other-journal-publications-in-interdisciplinary-fields" class="level2">
-<h2 class="anchored" data-anchor-id="other-journal-publications-in-interdisciplinary-fields">Other Journal Publications (in Interdisciplinary Fields)</h2>
-<!-- https://stackoverflow.com/questions/77771258/can-quarto-render-a-descending-ordered-markdown-list-into-revealjs -->
-<ol reversed="">
-<li>
-Effect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR<br>   <span class="co-author">Kamiya, Y., </span> <span class="author-self">Kishida, T.</span><br>   <em>Asia Pacific Journal of Public Health</em>, 2023 <span class="co-author">, 35(8):494-501</span><br>
-</li>
-<!-- --- -->
-<li>
-The Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin<br>   <span class="co-author">Tanou, M., </span> <span class="author-self">Kishida, T.</span> <span class="co-author">, Kamiya, Y.</span><br>   <em>Global Journal of Health Science</em>, 2022 <span class="co-author">, 14, 7, 19-31</span><br>
-</li>
-<!-- --- -->
-<li>
-The effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study<br>   <span class="co-author">Tanou, M., </span> <span class="author-self">Kishida, T.</span> <span class="co-author">, Kamiya, Y.</span><br>   <em>BMC Reproductive Health</em>, 2021<span class="co-author">, 18, 205</span><br>
-</li>
-</ol>
+<section id="combine-estimation-results-using-etable" class="level2">
+<h2 class="anchored" data-anchor-id="combine-estimation-results-using-etable">Combine Estimation Results using <code>etable()</code></h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 1</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>reg1 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  df</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>reg1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>OLS estimation, Dep. Var.: wage
+Observations: 47,976
+Standard-errors: IID 
+             Estimate Std. Error  t value   Pr(&gt;|t|)    
+(Intercept) -1340.061  228.55571 -5.86317 4.5708e-09 ***
+educ          521.960   14.33997 36.39894  &lt; 2.2e-16 ***
+age           277.909    3.72721 74.56229  &lt; 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 8,941.9   Adj. R2: 0.115895</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>reg1 <span class="sc">|&gt;</span> <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                               reg1
+Dependent Var.:                wage
+                                   
+Constant        -1,340.1*** (228.6)
+educ               522.0*** (14.34)
+age                277.9*** (3.727)
+_______________ ___________________
+S.E. type                       IID
+Observations                 47,976
+R2                          0.11593
+Adj. R2                     0.11589
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 2</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>reg2 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year,</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  df, </span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">vcov =</span> <span class="sc">~</span>countyfips <span class="sc">+</span> year</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>reg2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>OLS estimation, Dep. Var.: wage
+Observations: 47,976
+Fixed-effects: countyfips: 50,  year: 3
+Standard-errors: Clustered (countyfips &amp; year) 
+       Estimate Std. Error   t value  Pr(&gt;|t|)    
+educ    455.883    17.5685  25.94881 0.0014818 ** 
+age     175.803    55.6531   3.15890 0.0872918 .  
+black -1762.725   130.7620 -13.48041 0.0054579 ** 
+marr   5510.913   473.3828  11.64156 0.0072980 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 8,621.1     Adj. R2: 0.177284
+                Within R2: 0.175213</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>reg2 <span class="sc">|&gt;</span> <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                              reg2
+Dependent Var.:               wage
+                                  
+educ               455.9** (17.57)
+age                 175.8. (55.65)
+black           -1,762.7** (130.8)
+marr             5,510.9** (473.4)
+Fixed-Effects:  ------------------
+countyfips                     Yes
+year                           Yes
+_______________ __________________
+S.E.: Clustered   by: coun. &amp; year
+Observations                47,976
+R2                         0.17823
+Within R2                  0.17521
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the two tables</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">etable</span>(reg1, reg2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                               reg1               reg2
+Dependent Var.:                wage               wage
+                                                      
+Constant        -1,340.1*** (228.6)                   
+educ               522.0*** (14.34)    455.9** (17.57)
+age                277.9*** (3.727)     175.8. (55.65)
+black                               -1,762.7** (130.8)
+marr                                 5,510.9** (473.4)
+Fixed-Effects:  ------------------- ------------------
+countyfips                       No                Yes
+year                             No                Yes
+_______________ ___________________ __________________
+S.E. type                       IID   by: coun. &amp; year
+Observations                 47,976             47,976
+R2                          0.11593            0.17823
+Within R2                        --            0.17521
+---
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
+</div>
+</div>
 
 
 </section>

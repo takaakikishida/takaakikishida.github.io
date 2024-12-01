@@ -1,0 +1,27 @@
+---
+title: "Note"
+toc: false
+
+header-includes: |
+    <style>
+    h1.title {
+      text-align: center;
+      margin-top: 15px;
+    }
+    h2 {
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    </style>
+---
+
+\
+
+## Regression 
+
+- [Flexible Regression with `{fixest}`](flexible_fixest/)
+
+
+## Project Management

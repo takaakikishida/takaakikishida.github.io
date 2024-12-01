@@ -10,8 +10,8 @@ title: ""
 
 <!-- ### Takaaki Kishida -->
 <span style="font-size: 21px;">**Takaaki Kishida**</span>  
-<span style="font-size: 14px;">PhD Student</span>  
-<span style="font-size: 14px;">University of Geneva</span>
+<!-- <span style="font-size: 14px;">PhD Student</span>   -->
+<!-- <span style="font-size: 14px;">University of Geneva</span> -->
 :::
 
 ::: {.column width="77%"}
