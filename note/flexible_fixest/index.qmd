@@ -1,6 +1,9 @@
 ---
 title: "Flexible Regression with `{fixest}`"
+date: "November 30, 2024"
+# lastmod: "November 30, 2024"
 toc: true
+number-sections: true
 
 header-includes: |
     <style>

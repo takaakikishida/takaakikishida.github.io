@@ -21,7 +21,7 @@ header-includes: |
 
 ## Regression 
 
-- [Flexible Regression with `{fixest}`](flexible_fixest/)
+- [Flexible Regression Outputs with `{fixest}`](flexible_fixest/)
 
 
 ## Project Management

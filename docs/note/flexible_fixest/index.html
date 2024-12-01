@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-11-30">
 
 <title>Flexible Regression with {fixest} – Takaaki Kishida</title>
 <style>
@@ -150,9 +151,9 @@ h3 {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#read-data" id="toc-read-data" class="nav-link" data-scroll-target="#read-data">Read Data</a></li>
-  <li><a href="#combine-estimation-results-using-etable" id="toc-combine-estimation-results-using-etable" class="nav-link" data-scroll-target="#combine-estimation-results-using-etable">Combine Estimation Results using <code>etable()</code></a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
+  <li><a href="#read-data" id="toc-read-data" class="nav-link" data-scroll-target="#read-data"><span class="header-section-number">2</span> Read Data</a></li>
+  <li><a href="#combine-estimation-results-using-etable" id="toc-combine-estimation-results-using-etable" class="nav-link" data-scroll-target="#combine-estimation-results-using-etable"><span class="header-section-number">3</span> Combine Estimation Results using <code>etable()</code></a></li>
   </ul>
 </nav>
     </div>
@@ -169,6 +170,12 @@ h3 {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 30, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -180,15 +187,15 @@ h3 {
 
 <p><br>
 </p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="overview" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="overview"><span class="header-section-number">1</span> Overview</h2>
 <ul>
 <li>Still under construction.</li>
 <li>This note demonstrates flexible regression analyses and table outputs with the <code>{fixest}</code> package.</li>
 </ul>
 </section>
-<section id="read-data" class="level2">
-<h2 class="anchored" data-anchor-id="read-data">Read Data</h2>
+<section id="read-data" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="read-data"><span class="header-section-number">2</span> Read Data</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, fixest)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -229,8 +236,8 @@ $ lat        &lt;dbl&gt; 32.33174, 32.89123, 31.41561, 34.32960, 34.11633, 32.37
 </div>
 </div>
 </section>
-<section id="combine-estimation-results-using-etable" class="level2">
-<h2 class="anchored" data-anchor-id="combine-estimation-results-using-etable">Combine Estimation Results using <code>etable()</code></h2>
+<section id="combine-estimation-results-using-etable" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="combine-estimation-results-using-etable"><span class="header-section-number">3</span> Combine Estimation Results using <code>etable()</code></h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 1</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
