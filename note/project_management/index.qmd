@@ -1,0 +1,203 @@
+---
+title: "Project Management"
+date: "November 1, 2024"
+# lastmod: "November 30, 2024"
+toc: true
+toc-expand: true
+toc-title: "Table of Contents"
+number-sections: true
+
+header-includes: |
+    <style>
+    h1.title {
+      text-align: center;
+      margin-top: 15px;
+    }
+    h2 {
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    </style>
+---
+
+\
+
+Continuously updated.
+
+\
+
+## Software and Tools
+
+- Project management
+  - GitHub (or GitLab) for version controls and effective documentations/management: README, Issues, branches/pull-request, Wiki, and more. Everyone should use them.
+  - GitHub Projects for task management and planning.
+  - Notion or Trello for documentation. Also for planning and task management (when GitHub isn't needed).
+- Communication
+  - Always talk in threads for each issue/topic, in the right channel.
+  - Discord: Free
+  - Slack: Better UI (imo) but only last 90-days of messages accessible (so use Discord)
+  - Meeting notes
+    - Avoid Word/GoogleDocs for quick access (requires opening each file to refer to it and doesn't easily support linking between items).
+    - Notion, GitHub, etc., are better alternatives.
+- Others
+  - AI tools for coding and writing: GitHub Copilot, Microsoft Copilot, etc.
+  - [Econ Paper Search](https://econ-paper-search.streamlit.app/): Search econ papers by journals
+
+
+## General Guideline
+
+### Useful or new
+
+**(especially 1-4 are useful)**
+
+1. Matthew Gentzkow
+    - [Lab Manual (archived version)](https://github.com/gentzkow/lab-manual-archive/wiki) see `Lab Manual` and `Appendices` in Wiki
+      - [Lab Administration](https://github.com/gslab-econ/lab-manual/wiki/Lab-Administration)
+      - [Meeting Notes](https://github.com/gslab-econ/lab-manual/wiki/Meeting-Notes)
+      - [JMSLab Notes](https://github.com/gslab-econ/lab-manual/wiki/JMSLab-Notes)
+      - [Template](https://github.com/JMSLab/Template)
+      - [Required info for README](https://github.com/gslab-econ/ra-manual-archived/tree/master/docs)
+    - [GentzkowLabTemplate](https://github.com/gentzkow/GentzkowLabTemplate)
+2. Brendan M. Price — [Workflow for empirical research](https://www.brendanmichaelprice.com/workflow/)
+3. Ricardo Dahis — [Template for Empirical Papers](https://github.com/rdahis/paper_template)
+4. Karl Broman — [initial steps toward reproducible research](https://kbroman.org/steps2rr/)
+    - Everyone should read [“Organize your data and code”](https://kbroman.org/steps2rr/pages/organize.html)
+    - Turn repetitive code into functions
+    - Make frequently used functions into a package
+5. emLab — [Standard Operating Procedures](https://emlab-ucsb.github.io/SOP/index.html) | [repository](https://github.com/emlab-ucsb/SOP?tab=readme-ov-file)
+6. Grant McDermott — [Data science for economists](https://github.com/uo-ec607/lectures?tab=readme-ov-file)
+7. Silvia Peracchi — [A collection of tips for applied research in Economics](https://silvia-peracchi-econ.netlify.app/posts/tips_document/)
+8. Bergmann, Deer, & Langer (2021) [Reproducible Data Analytic Workflows for Economics](https://lachlandeer.github.io/snakemake-econ-r-tutorial/index.html)
+    - [Chapter 2 Project Organization](https://lachlandeer.github.io/snakemake-econ-r-tutorial/project-organization.html)
+9. Smith (2023) [Reproducible Epidemiology in R](https://www.reproducible-epi-workshop.louisahsmith.com/)   — [Workflow](https://www.reproducible-epi-workshop.louisahsmith.com/setup)
+10. Kok (2018) [How to keep your research projects organized: folder structure](https://towardsdatascience.com/how-to-keep-your-research-projects-organized-part-1-folder-structure-10bd56034d3a)
+11. [Office of the AEA Data Editor](https://aeadataeditor.github.io/)
+    - [Preparing your files for verification](https://aeadataeditor.github.io/aea-de-guidance/preparing-for-data-deposit.html)
+    - [Guidance](https://aeadataeditor.github.io/aea-de-guidance/)
+    - [A template README for social science replication packages](https://social-science-data-editors.github.io/template_README/)
+12. Bjarkefur, Cardoso de Andrade, Daniels, & Jones (2021) [Development Research in Practice: The DIME Analytics Data Handbook](https://openknowledge.worldbank.org/entities/publication/c0d71cd5-064b-5c4f-a8d6-1be40bb3ee25)
+    - [Seminar video](https://www.worldbank.org/ja/events/2021/09/10/development-research-in-Practice-the-dime-analytics-data-handbook) (in English) and [slides](https://thedocs.worldbank.org/en/doc/d6858ccd50b24229243eda0090f445b1-0360012021/original/Development-Research-in-Practice-Japan-presentation.pdf)
+
+
+### Old information (but still nice to see)
+
+- Gentzkow & Shapiro (2014) — [Code and Data for the Social Sciences: A Practitioner’s Guide](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
+- Knittel & Metaxoglou (2018) ["Working with Data: Two Empiricists' Experience"](https://doi.org/10.1515/jem-2016-0001) *Journal of Econometric Methods*, vol.7, no.1
+
+
+## Folder Structure Example
+
+My preferred (basic) structure (you can generate a tree with [tree.nathanfriend.com](https://tree.nathanfriend.com/)
+)
+```
+.
+└── your_project_name/
+    ├── data/
+    │   ├── processed/
+    │   │   ├── building
+    │   │   ├── temperature
+    │   │   └── main.rds
+    │   └── raw/
+    │       ├── building
+    │       ├── temperature
+    │       └── shapefile
+    ├── document
+    ├── draft/
+    │   └── submission/
+    │       └── 2024_10_PNAS/
+    │           ├── manuscript.tex
+    │           └── manuscript.pdf
+    ├── output/
+    │   ├── figure/
+    │   │   ├── figure1_map.pdf
+    │   │   ├── figure2A_hist.pdf
+    │   │   └── figure2B_binscatter.pdf
+    │   └── table/
+    │       ├── table1_summarystats.tex
+    │       ├── table2_regression_baseline.tex
+    │       ├── tableA1_data_list.tex
+    │       └── tableB1_regression_falsification.tex
+    ├── source/
+    │   ├── analysis/
+    │   │   ├── figure/
+    │   │   │   ├── figure1_map.R
+    │   │   │   └── figure2_hist_binscatter.R
+    │   │   └── table/
+    │   │       ├── table1_summarystats.R
+    │   │       ├── table2_regression_baseline.R
+    │   │       └── tableB1_regression_falsification.R
+    │   ├── data_eda/
+    │   │   ├── housing.html
+    │   │   └── housing.qmd
+    │   └── make_dataset/
+    │       ├── make_variables.R
+    │       ├── merge.R
+    │       └── temperature.R
+    ├── README.md
+    └── your_project_name.Rproj
+```
+
+
+## Naming Conventions
+
+- Read the first few chapters of Boswell and Foucher (2011) [*The Art of Readable Code*](https://www.amazon.com/Art-Readable-Code-Practical-Techniques/dp/0596802293)
+- Use consistent case (uppercase or lowercase) and names
+- Avoid spaces in file/folder names:
+  - Good: `make_variables.R`, `table1_summarystats.tex`
+  - Bad: `Make New variable.R`, `Table 1 (new).tex`
+- Variable names
+  - Use prefixes (especially for binary variables) like `is_` or `has_` to clearly show they hold `TRUE` / `FALSE` values.
+  - Avoid ambiguous names:
+      - Good: `is_famele`, `has_renovated`
+      - Bad: `female`, `renovation`
+
+
+## README
+
+- It is better to update regularly to document data sources, dataset construction steps, new files, etc.
+- [Find Economic Articles with Data](https://ejd.econ.mathematik.uni-ulm.de/) lists economics papers with replication packages and `README` files. Reviewing both good and poor examples can be helpful.
+
+
+## R
+
+- Always use:
+  - `.Rproj`
+  - `here::here()` &rarr; means stop using `setwd()`
+- Ideally use `{targets}` and `{renv}` (for dependency management) (I'm still learning)
+- Also use a Markdown-like heading structure:
+  - Use `Cmd + Shift + R` for the first heading (if you like)
+- Use Quarto to create meeting notes and share intermediate results
+- The tidyverse team — [Tidyverse style guide](https://style.tidyverse.org/)
+- Use `{fixest}` for regression.
+  - For Stata users: [stata2R — Regression analysis with fixest](https://stata2r.github.io/fixest/)
+- Rodrigues (2023) [*Building reproducible analytical pipelines with R*](https://raps-with-r.dev/)
+
+
+## Stata
+
+- Stop using `cd`. See [tweet](https://x.com/AeaData/status/1495929369642115075) for why
+  - Instead, use dynamic and absolute file path (more generalizable)
+  - Refer to [World Bank DIME's Stata Coding Practices](https://dimewiki.worldbank.org/Stata_Coding_Practices)
+
+
+## Git(Hub)
+
+- Use `.gitignore` efficiently ([example](https://github.com/kylebutts/latex-templates?tab=readme-ov-file#gitignore))
+
+
+## Other Articles and Materials
+
+- Project overview
+  - Nature articles
+    - [How to manage your time as a researcher](https://www.nature.com/articles/d41586-022-04364-2)
+    - [Why I use Notion to organize my PhD research](https://www.nature.com/articles/d41586-023-03323-9)
+    - [Democratic databases: science on GitHub](https://www.nature.com/articles/538127a)
+    - [Managing up: how to communicate effectively with your PhD adviser](https://www.nature.com/articles/d41586-021-03703-z)
+  - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+  - [Starting new projects](https://x.com/vini_singh_/status/1801662969111081110) (X thread)
+- Coding
+  - Daniel M. Sullivan — [Best Practices when Writing Code](https://www.danielmsullivan.com/pages/tutorial_workflow_3bestpractice.html)
+  - [Coding for Economists](https://aeturrell.github.io/coding-for-economists/intro.html)
+

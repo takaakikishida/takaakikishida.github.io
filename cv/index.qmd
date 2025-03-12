@@ -1,0 +1,82 @@
+---
+title: "Curriculum Vitae"
+toc: false
+
+header-includes: |
+    <style>
+    h1.title {
+      text-align: center;
+      margin-top: 15px;
+    }
+    h2 {
+      margin-top: 60px;
+    }
+    h3 {
+      margin-top: 20px;
+    }
+    .cv-container {
+      width: 100%;
+    }
+    .cv-entry {
+      display: flex;
+      gap: 5px; /* 年と詳細の間のスペース調整 */
+      margin-bottom: 5px; /* 各エントリーの間隔 */
+    }
+    .cv-year {
+      width: 14%; /* 年の幅調整 */
+      <!-- font-weight: bold; -->
+      text-align: left;
+    }
+    .cv-detail {
+      width: 80%; /* 詳細の幅調整 */
+      text-align: left;
+    }
+    </style>
+---
+
+<!-- Feel free to text me if you don't have access to the full text or PDF. -->
+\
+
+## Note
+
+- Before moving to Switzerland in 2022, I completed my studies and worked in the private sector in Japan for about two years.
+- A full PDF version of my CV is available upon request.
+
+
+## Short CV (since 2022)
+
+### Education
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2024--present</div>
+  <div class="cv-detail">PhD in Economics, Institute of Economics and Econometrics, University of Geneva</div>
+</div>
+<div class="cv-entry">
+  <div class="cv-year">2022--2024</div>
+  <div class="cv-detail">MSc in Economics, HEC Lausanne, University of Lausanne</div>
+</div>
+:::
+
+### RA
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2025--present</div>
+  <div class="cv-detail">For Matthieu Stigler, University of Geneva</div>
+</div>
+<div class="cv-entry">
+  <div class="cv-year">2023--2024</div>
+  <div class="cv-detail">For Sebastien Houde, University of Lausanne</div>
+</div>
+:::
+
+### Other Relevant Experience
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2022--2024</div>
+  <div class="cv-detail">Graduate Mentee, Mentorship Program, HEC Lausanne, Switzerland</div>
+</div>
+:::
+

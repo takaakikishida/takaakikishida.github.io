@@ -45,9 +45,9 @@ header-includes: |
     &emsp; <span class="author-self">Kishida, T.</span>
     <span class="co-author">, Ito, T., Yamamoto, Y.</span><br>
     &emsp; *Journal of Development Studies*, 2024
-    <span class="co-author">, 1-18</span><br>
+    <span class="co-author">, 61(3), 424–441.</span><br>
     &emsp; +Abstract | +BibTex | [PDF](https://takaakikishida.github.io/research/file/2024_JDS_Kishida_Deforestation_and_Children.pdf){target="_blank"} | [Journal Website](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"}<br>
-    &emsp; ![](/image/forest_loss_2012.jpeg)
+    ![](/image/forest_loss_2012.jpeg)
   </li>
 </ol>
 
@@ -61,7 +61,7 @@ header-includes: |
 
 ## Work in Progress
 
-- Air Pollution and Worker Productivity: Evidence from Nationally Representative Surveys in South Asia
+- Air Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries
 
 - Sunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses<br>
   &emsp; <span class="co-author">with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A. </span>
@@ -73,6 +73,15 @@ header-includes: |
 <!-- https://stackoverflow.com/questions/77771258/can-quarto-render-a-descending-ordered-markdown-list-into-revealjs -->
 
 <ol reversed>
+  <li>
+    Precipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018<br>
+    &emsp; <span class="co-author">Kamiya, Y., </span>
+    <span class="author-self">Kishida, T.</span>
+    <span class="co-author">, Tanou, M.</span><br>
+    &emsp; *Journal of Health, Population and Nutrition*, 2025
+    <span class="co-author">, 44, 68</span><br>
+  </li>
+  <!-- --- -->
   <li>
     Effect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR<br>
     &emsp; <span class="co-author">Kamiya, Y., </span>

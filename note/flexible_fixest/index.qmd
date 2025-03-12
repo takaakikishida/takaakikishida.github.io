@@ -1,8 +1,10 @@
 ---
 title: "Flexible Regression Outputs with `{fixest}`"
-date: "November 30, 2024"
+date: "March 1, 2025"
 # lastmod: "November 30, 2024"
 toc: true
+toc-expand: true
+toc-title: "Table of Contents"
 number-sections: true
 
 header-includes: |
@@ -26,17 +28,74 @@ header-includes: |
 
 - Still under construction.
 - This note demonstrates flexible regression analyses and table outputs with the `{fixest}` package.
+- `{fixest}` is a fast and flexible package for estimating fixed-effects models.
+- Main reference: [stata2R---fixest](https://stata2r.github.io/fixest/).  
 
 
+## Setup
 
-## Read Data
+### Package
 
 ```{r}
 pacman::p_load(tidyverse, fixest)
+```
 
-df <- read_csv("https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv")
+### Read data
+
+```{r}
+df <- readr::read_csv("https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv")
 
 df |> glimpse()
+```
+
+
+## Set Dataset Grobally
+
+- Set the dataset globally using `setFixest_estimation()` function so that we don't need to specify the data argument in the `feols()` function in each estimation.
+- In Section 3, we will speficy the data argument in the `feols()` function to show how it works.
+- In Section 4 onward, we won't specify the data argument in the `feols()` function.
+
+```{r}
+fixest::setFixest_estimation(data = df)
+```
+
+
+## Basic Estimation with `feols()`
+
+### Multiple variables
+
+```{r}
+df |> feols(
+  wage ~ educ + age + black + marr
+)
+```
+
+- Note: `etable()` function is used to display the estimation results in a nice table format.
+
+```{r}
+df |> feols(
+  wage ~ educ + age + black + marr
+) |> 
+  etable()
+```
+
+### Multiple fixed effects
+
+```{r}
+df |> feols(
+  wage ~ educ + age + black + marr | 
+    countyfips + year
+)
+```
+
+### Clustered standard errors with `vcov`
+
+```{r}
+df |> feols(
+  wage ~ educ + age + black + marr | 
+    countyfips + year,
+  vcov = ~countyfips + year
+)
 ```
 
 
@@ -44,29 +103,69 @@ df |> glimpse()
 
 ```{r}
 # Reg 1
+reg1 <- feols(wage ~ educ + age)
 
-reg1 <- feols(
-  wage ~ educ + age,
-  df
-)
-
-reg1
-reg1 |> etable()
-
-
-# Reg 2
-
+# Reg 2: Add FE
 reg2 <- feols(
   wage ~ educ + age + black + marr | 
+    countyfips + year
+)
+
+# Reg 3: Use twoway clustering
+reg3 <- feols(
+  wage ~ educ + age + black + marr | 
     countyfips + year,
-  df, 
   vcov = ~countyfips + year
 )
 
-reg2
-reg2 |> etable()
-
-# Combine the two tables
-
-etable(reg1, reg2)
+# Combine the three tables
+etable(reg1, reg2, reg3)
 ```
+
+
+## Multi-Model Estimations
+
+### Split estimation by group
+
+```{r}
+# df |> count(year)
+# A tibble: 3 × 2
+#    year     n
+#   <dbl> <int>
+# 1  1974 15992
+# 2  1975 15992
+# 3  1978 15992
+
+feols(
+  wage ~ educ + age + black + marr | 
+    countyfips,
+  vcov = ~countyfips,
+  split = ~year
+) |> 
+  etable()
+```
+
+### Multiple dependent variables
+
+### Stepwise regression
+
+
+## Interaction Terms
+
+
+## Macros
+
+```{r}
+# treat
+# contr_demog
+# contr_geo
+# fe
+```
+
+
+## Presenting Better Tables for Meetings and Other Non-Publication Purposes
+
+
+## Exports Table in LaTeX Format
+
+

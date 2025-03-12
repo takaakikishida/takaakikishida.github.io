@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-11-30">
+<meta name="dcterms.date" content="2025-03-01">
 
 <title>Flexible Regression Outputs with {fixest} – Takaaki Kishida</title>
 <style>
@@ -120,7 +120,7 @@ h3 {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../cv/index.qmd"> 
+    <a class="nav-link" href="../../cv/index.html"> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
@@ -147,13 +147,34 @@ h3 {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Table of Contents</h2>
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview"><span class="header-section-number">1</span> Overview</a></li>
-  <li><a href="#read-data" id="toc-read-data" class="nav-link" data-scroll-target="#read-data"><span class="header-section-number">2</span> Read Data</a></li>
-  <li><a href="#combine-estimation-results-using-etable" id="toc-combine-estimation-results-using-etable" class="nav-link" data-scroll-target="#combine-estimation-results-using-etable"><span class="header-section-number">3</span> Combine Estimation Results using <code>etable()</code></a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup"><span class="header-section-number">2</span> Setup</a>
+  <ul class="collapse">
+  <li><a href="#package" id="toc-package" class="nav-link" data-scroll-target="#package"><span class="header-section-number">2.1</span> Package</a></li>
+  <li><a href="#read-data" id="toc-read-data" class="nav-link" data-scroll-target="#read-data"><span class="header-section-number">2.2</span> Read data</a></li>
+  </ul></li>
+  <li><a href="#set-dataset-grobally" id="toc-set-dataset-grobally" class="nav-link" data-scroll-target="#set-dataset-grobally"><span class="header-section-number">3</span> Set Dataset Grobally</a></li>
+  <li><a href="#basic-estimation-with-feols" id="toc-basic-estimation-with-feols" class="nav-link" data-scroll-target="#basic-estimation-with-feols"><span class="header-section-number">4</span> Basic Estimation with <code>feols()</code></a>
+  <ul class="collapse">
+  <li><a href="#multiple-variables" id="toc-multiple-variables" class="nav-link" data-scroll-target="#multiple-variables"><span class="header-section-number">4.1</span> Multiple variables</a></li>
+  <li><a href="#multiple-fixed-effects" id="toc-multiple-fixed-effects" class="nav-link" data-scroll-target="#multiple-fixed-effects"><span class="header-section-number">4.2</span> Multiple fixed effects</a></li>
+  <li><a href="#clustered-standard-errors-with-vcov" id="toc-clustered-standard-errors-with-vcov" class="nav-link" data-scroll-target="#clustered-standard-errors-with-vcov"><span class="header-section-number">4.3</span> Clustered standard errors with <code>vcov</code></a></li>
+  </ul></li>
+  <li><a href="#combine-estimation-results-using-etable" id="toc-combine-estimation-results-using-etable" class="nav-link" data-scroll-target="#combine-estimation-results-using-etable"><span class="header-section-number">5</span> Combine Estimation Results using <code>etable()</code></a></li>
+  <li><a href="#multi-model-estimations" id="toc-multi-model-estimations" class="nav-link" data-scroll-target="#multi-model-estimations"><span class="header-section-number">6</span> Multi-Model Estimations</a>
+  <ul class="collapse">
+  <li><a href="#split-estimation-by-group" id="toc-split-estimation-by-group" class="nav-link" data-scroll-target="#split-estimation-by-group"><span class="header-section-number">6.1</span> Split estimation by group</a></li>
+  <li><a href="#multiple-dependent-variables" id="toc-multiple-dependent-variables" class="nav-link" data-scroll-target="#multiple-dependent-variables"><span class="header-section-number">6.2</span> Multiple dependent variables</a></li>
+  <li><a href="#stepwise-regression" id="toc-stepwise-regression" class="nav-link" data-scroll-target="#stepwise-regression"><span class="header-section-number">6.3</span> Stepwise regression</a></li>
+  </ul></li>
+  <li><a href="#interaction-terms" id="toc-interaction-terms" class="nav-link" data-scroll-target="#interaction-terms"><span class="header-section-number">7</span> Interaction Terms</a></li>
+  <li><a href="#macros" id="toc-macros" class="nav-link" data-scroll-target="#macros"><span class="header-section-number">8</span> Macros</a></li>
+  <li><a href="#presenting-better-tables-for-meetings-and-other-non-publication-purposes" id="toc-presenting-better-tables-for-meetings-and-other-non-publication-purposes" class="nav-link" data-scroll-target="#presenting-better-tables-for-meetings-and-other-non-publication-purposes"><span class="header-section-number">9</span> Presenting Better Tables for Meetings and Other Non-Publication Purposes</a></li>
+  <li><a href="#exports-table-in-latex-format" id="toc-exports-table-in-latex-format" class="nav-link" data-scroll-target="#exports-table-in-latex-format"><span class="header-section-number">10</span> Exports Table in LaTeX Format</a></li>
   </ul>
 </nav>
     </div>
@@ -173,7 +194,7 @@ h3 {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 30, 2024</p>
+      <p class="date">March 1, 2025</p>
     </div>
   </div>
   
@@ -192,14 +213,22 @@ h3 {
 <ul>
 <li>Still under construction.</li>
 <li>This note demonstrates flexible regression analyses and table outputs with the <code>{fixest}</code> package.</li>
+<li><code>{fixest}</code> is a fast and flexible package for estimating fixed-effects models.</li>
+<li>Main reference: <a href="https://stata2r.github.io/fixest/">stata2R—fixest</a>.</li>
 </ul>
 </section>
-<section id="read-data" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="read-data"><span class="header-section-number">2</span> Read Data</h2>
+<section id="setup" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="setup"><span class="header-section-number">2</span> Setup</h2>
+<section id="package" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="package"><span class="header-section-number">2.1</span> Package</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, fixest)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>pacman<span class="sc">::</span><span class="fu">p_load</span>(tidyverse, fixest)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="read-data" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="read-data"><span class="header-section-number">2.2</span> Read data</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>Rows: 47976 Columns: 19
 ── Column specification ────────────────────────────────────────────────────────
@@ -210,7 +239,7 @@ dbl (18): id, treat, age, educ, black, hisp, marr, nodegree, year, wage, x1,...
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 47,976
 Columns: 19
@@ -236,55 +265,100 @@ $ lat        &lt;dbl&gt; 32.33174, 32.89123, 31.41561, 34.32960, 34.11633, 32.37
 </div>
 </div>
 </section>
-<section id="combine-estimation-results-using-etable" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="combine-estimation-results-using-etable"><span class="header-section-number">3</span> Combine Estimation Results using <code>etable()</code></h2>
+</section>
+<section id="set-dataset-grobally" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="set-dataset-grobally"><span class="header-section-number">3</span> Set Dataset Grobally</h2>
+<ul>
+<li>Set the dataset globally using <code>setFixest_estimation()</code> function so that we don’t need to specify the data argument in the <code>feols()</code> function in each estimation.</li>
+<li>In Section 3, we will speficy the data argument in the <code>feols()</code> function to show how it works.</li>
+<li>In Section 4 onward, we won’t specify the data argument in the <code>feols()</code> function.</li>
+</ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 1</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>reg1 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age,</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  df</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>reg1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>fixest<span class="sc">::</span><span class="fu">setFixest_estimation</span>(<span class="at">data =</span> df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="basic-estimation-with-feols" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="basic-estimation-with-feols"><span class="header-section-number">4</span> Basic Estimation with <code>feols()</code></h2>
+<section id="multiple-variables" class="level3" data-number="4.1">
+<h3 data-number="4.1" class="anchored" data-anchor-id="multiple-variables"><span class="header-section-number">4.1</span> Multiple variables</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">feols</span>(</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>OLS estimation, Dep. Var.: wage
 Observations: 47,976
 Standard-errors: IID 
-             Estimate Std. Error  t value   Pr(&gt;|t|)    
-(Intercept) -1340.061  228.55571 -5.86317 4.5708e-09 ***
-educ          521.960   14.33997 36.39894  &lt; 2.2e-16 ***
-age           277.909    3.72721 74.56229  &lt; 2.2e-16 ***
+             Estimate Std. Error   t value   Pr(&gt;|t|)    
+(Intercept)  -950.721  223.15696  -4.26033 2.0452e-05 ***
+educ          456.568   13.95431  32.71880  &lt; 2.2e-16 ***
+age           175.777    4.01763  43.75147  &lt; 2.2e-16 ***
+black       -1763.186  152.17435 -11.58662  &lt; 2.2e-16 ***
+marr         5507.951   97.27784  56.62082  &lt; 2.2e-16 ***
 ---
 Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-RMSE: 8,941.9   Adj. R2: 0.115895</code></pre>
+RMSE: 8,639.6   Adj. R2: 0.174619</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>reg1 <span class="sc">|&gt;</span> <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>Note: <code>etable()</code> function is used to display the estimation results in a nice table format.</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">feols</span>(</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                               reg1
+<pre><code>                feols(df, wage ~ ..
 Dependent Var.:                wage
                                    
-Constant        -1,340.1*** (228.6)
-educ               522.0*** (14.34)
-age                277.9*** (3.727)
+Constant          -950.7*** (223.2)
+educ               456.6*** (13.95)
+age                175.8*** (4.018)
+black           -1,763.2*** (152.2)
+marr             5,508.0*** (97.28)
 _______________ ___________________
 S.E. type                       IID
 Observations                 47,976
-R2                          0.11593
-Adj. R2                     0.11589
+R2                          0.17469
+Adj. R2                     0.17462
 ---
 Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 2</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>reg2 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year,</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>  df, </span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">vcov =</span> <span class="sc">~</span>countyfips <span class="sc">+</span> year</span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>reg2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="multiple-fixed-effects" class="level3" data-number="4.2">
+<h3 data-number="4.2" class="anchored" data-anchor-id="multiple-fixed-effects"><span class="header-section-number">4.2</span> Multiple fixed effects</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">feols</span>(</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>OLS estimation, Dep. Var.: wage
+Observations: 47,976
+Fixed-effects: countyfips: 50,  year: 3
+Standard-errors: Clustered (countyfips) 
+       Estimate Std. Error  t value  Pr(&gt;|t|)    
+educ    455.883   14.82402  30.7530 &lt; 2.2e-16 ***
+age     175.803    4.00740  43.8695 &lt; 2.2e-16 ***
+black -1762.725  134.83084 -13.0736 &lt; 2.2e-16 ***
+marr   5510.913  101.57083  54.2568 &lt; 2.2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+RMSE: 8,621.1     Adj. R2: 0.177284
+                Within R2: 0.175213</code></pre>
+</div>
+</div>
+</section>
+<section id="clustered-standard-errors-with-vcov" class="level3" data-number="4.3">
+<h3 data-number="4.3" class="anchored" data-anchor-id="clustered-standard-errors-with-vcov"><span class="header-section-number">4.3</span> Clustered standard errors with <code>vcov</code></h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>df <span class="sc">|&gt;</span> <span class="fu">feols</span>(</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year,</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">vcov =</span> <span class="sc">~</span>countyfips <span class="sc">+</span> year</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>OLS estimation, Dep. Var.: wage
 Observations: 47,976
@@ -300,50 +374,117 @@ Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 RMSE: 8,621.1     Adj. R2: 0.177284
                 Within R2: 0.175213</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>reg2 <span class="sc">|&gt;</span> <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="combine-estimation-results-using-etable" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="combine-estimation-results-using-etable"><span class="header-section-number">5</span> Combine Estimation Results using <code>etable()</code></h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 1</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>reg1 <span class="ot">&lt;-</span> <span class="fu">feols</span>(wage <span class="sc">~</span> educ <span class="sc">+</span> age)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 2: Add FE</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>reg2 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Reg 3: Use twoway clustering</span></span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>reg3 <span class="ot">&lt;-</span> <span class="fu">feols</span>(</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    countyfips <span class="sc">+</span> year,</span>
+<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>  <span class="at">vcov =</span> <span class="sc">~</span>countyfips <span class="sc">+</span> year</span>
+<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the three tables</span></span>
+<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a><span class="fu">etable</span>(reg1, reg2, reg3)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                              reg2
-Dependent Var.:               wage
-                                  
-educ               455.9** (17.57)
-age                 175.8. (55.65)
-black           -1,762.7** (130.8)
-marr             5,510.9** (473.4)
-Fixed-Effects:  ------------------
-countyfips                     Yes
-year                           Yes
-_______________ __________________
-S.E.: Clustered   by: coun. &amp; year
-Observations                47,976
-R2                         0.17823
-Within R2                  0.17521
+<pre><code>                               reg1                reg2               reg3
+Dependent Var.:                wage                wage               wage
+                                                                          
+Constant        -1,340.1*** (228.6)                                       
+educ               522.0*** (14.34)    455.9*** (14.82)    455.9** (17.57)
+age                277.9*** (3.727)    175.8*** (4.007)     175.8. (55.65)
+black                               -1,762.7*** (134.8) -1,762.7** (130.8)
+marr                                 5,510.9*** (101.6)  5,510.9** (473.4)
+Fixed-Effects:  ------------------- ------------------- ------------------
+countyfips                       No                 Yes                Yes
+year                             No                 Yes                Yes
+_______________ ___________________ ___________________ __________________
+S.E. type                       IID      by: countyfips   by: coun. &amp; year
+Observations                 47,976              47,976             47,976
+R2                          0.11593             0.17823            0.17823
+Within R2                        --             0.17521            0.17521
 ---
 Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the two tables</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="fu">etable</span>(reg1, reg2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="multi-model-estimations" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="multi-model-estimations"><span class="header-section-number">6</span> Multi-Model Estimations</h2>
+<section id="split-estimation-by-group" class="level3" data-number="6.1">
+<h3 data-number="6.1" class="anchored" data-anchor-id="split-estimation-by-group"><span class="header-section-number">6.1</span> Split estimation by group</h3>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df |&gt; count(year)</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="co"># A tibble: 3 × 2</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co">#    year     n</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co">#   &lt;dbl&gt; &lt;int&gt;</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="co"># 1  1974 15992</span></span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="co"># 2  1975 15992</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a><span class="co"># 3  1978 15992</span></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="fu">feols</span>(</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>  wage <span class="sc">~</span> educ <span class="sc">+</span> age <span class="sc">+</span> black <span class="sc">+</span> marr <span class="sc">|</span> </span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>    countyfips,</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>  <span class="at">vcov =</span> <span class="sc">~</span>countyfips,</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a>  <span class="at">split =</span> <span class="sc">~</span>year</span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>) <span class="sc">|&gt;</span> </span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">etable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>                               reg1               reg2
-Dependent Var.:                wage               wage
-                                                      
-Constant        -1,340.1*** (228.6)                   
-educ               522.0*** (14.34)    455.9** (17.57)
-age                277.9*** (3.727)     175.8. (55.65)
-black                               -1,762.7** (130.8)
-marr                                 5,510.9** (473.4)
-Fixed-Effects:  ------------------- ------------------
-countyfips                       No                Yes
-year                             No                Yes
-_______________ ___________________ __________________
-S.E. type                       IID   by: coun. &amp; year
-Observations                 47,976             47,976
-R2                          0.11593            0.17823
-Within R2                        --            0.17521
+<pre><code>                feols(wage ~ edu..1 feols(wage ~ edu..2 feols(wage ~ edu..3
+Sample (year)                  1974                1975                1978
+Dependent Var.:                wage                wage                wage
+                                                                           
+educ               425.0*** (23.82)    478.9*** (24.42)    465.5*** (24.31)
+age                256.8*** (6.229)    203.0*** (6.948)    66.84*** (7.179)
+black           -1,578.9*** (216.2) -1,664.9*** (238.8) -2,059.9*** (288.2)
+marr             6,104.4*** (173.0)  5,850.4*** (150.2)  4,582.0*** (174.8)
+Fixed-Effects:  ------------------- ------------------- -------------------
+countyfips                      Yes                 Yes                 Yes
+_______________ ___________________ ___________________ ___________________
+S.E.: Clustered      by: countyfips      by: countyfips      by: countyfips
+Observations                 15,992              15,992              15,992
+R2                          0.25965             0.22264             0.09148
+Within R2                   0.25755             0.21946             0.08902
 ---
 Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1</code></pre>
 </div>
 </div>
+</section>
+<section id="multiple-dependent-variables" class="level3" data-number="6.2">
+<h3 data-number="6.2" class="anchored" data-anchor-id="multiple-dependent-variables"><span class="header-section-number">6.2</span> Multiple dependent variables</h3>
+</section>
+<section id="stepwise-regression" class="level3" data-number="6.3">
+<h3 data-number="6.3" class="anchored" data-anchor-id="stepwise-regression"><span class="header-section-number">6.3</span> Stepwise regression</h3>
+</section>
+</section>
+<section id="interaction-terms" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="interaction-terms"><span class="header-section-number">7</span> Interaction Terms</h2>
+</section>
+<section id="macros" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="macros"><span class="header-section-number">8</span> Macros</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># treat</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co"># contr_demog</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="co"># contr_geo</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># fe</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="presenting-better-tables-for-meetings-and-other-non-publication-purposes" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="presenting-better-tables-for-meetings-and-other-non-publication-purposes"><span class="header-section-number">9</span> Presenting Better Tables for Meetings and Other Non-Publication Purposes</h2>
+</section>
+<section id="exports-table-in-latex-format" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="exports-table-in-latex-format"><span class="header-section-number">10</span> Exports Table in LaTeX Format</h2>
 
 
 </section>

@@ -19,9 +19,14 @@ header-includes: |
 
 \
 
-## Regression 
+## Data Analysis
 
 - [Flexible Regression Outputs with `{fixest}`](flexible_fixest/)
 
 
-## Project Management
+## Management and Coding
+
+- [Tools](tool/)
+- [Project Management](project_management/) (continuously updated)
+- GitHub Projects
+

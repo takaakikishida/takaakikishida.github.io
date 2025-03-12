@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Takaaki Kishida",
     "section": "",
-    "text": "Takaaki Kishida\n \n\n\nI am a PhD student in Economics at the Institute of Economics and Econometrics, GSEM, University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, development, and health economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\n\n Email: Takaaki.Kishida@unige.ch\nCV | ORCID | GitHub | LinkedIn\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works\n\nPackage: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote: About project management\nNote: Replication and translation exercises\nShiny App: Interactive map of my favorite places in Switzerland"
+    "text": "Takaaki Kishida\n  \n\n\nI am a PhD student in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, development, and health economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\nMy name in Japanese: 岸田隆明\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works\n\nPackage: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote: About project management\nNote: Replication and translation exercises\nShiny App: Interactive map of my favorite places in Switzerland"
   },
   {
     "objectID": "research/index.html#working-papers",
@@ -18,28 +18,28 @@
     "href": "research/index.html#journal-publications",
     "title": "Research",
     "section": "Journal Publications",
-    "text": "Journal Publications\n\n\n\n\n\n\n\n\n\nDeforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia   Kishida, T. , Ito, T., Yamamoto, Y.   Journal of Development Studies, 2024 , 1-18   +Abstract | +BibTex | PDF | Journal Website"
+    "text": "Journal Publications\n\n\n\n\n\n\n\n\n\nDeforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia   Kishida, T. , Ito, T., Yamamoto, Y.   Journal of Development Studies, 2024 , 61(3), 424–441.   +Abstract | +BibTex | PDF | Journal Website"
   },
   {
     "objectID": "research/index.html#work-in-progress",
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\nAir Pollution and Worker Productivity: Evidence from Nationally Representative Surveys in South Asia\nSunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses   with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A."
+    "text": "Work in Progress\n\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries\nSunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses   with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A."
   },
   {
     "objectID": "research/index.html#other-journal-publications-in-interdisciplinary-fields",
     "href": "research/index.html#other-journal-publications-in-interdisciplinary-fields",
     "title": "Research",
     "section": "Other Journal Publications (in Interdisciplinary Fields)",
-    "text": "Other Journal Publications (in Interdisciplinary Fields)\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+    "text": "Other Journal Publications (in Interdisciplinary Fields)\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
   },
   {
     "objectID": "note/flexible_fixest/index.html#overview",
     "href": "note/flexible_fixest/index.html#overview",
     "title": "Flexible Regression Outputs with {fixest}",
     "section": "1 Overview",
-    "text": "1 Overview\n\nStill under construction.\nThis note demonstrates flexible regression analyses and table outputs with the {fixest} package."
+    "text": "1 Overview\n\nStill under construction.\nThis note demonstrates flexible regression analyses and table outputs with the {fixest} package.\n{fixest} is a fast and flexible package for estimating fixed-effects models.\nMain reference: stata2R—fixest."
   },
   {
     "objectID": "note/flexible_fixest/index.html#read-data",
@@ -67,7 +67,7 @@
     "href": "note/index.html#project-management",
     "title": "Note",
     "section": "Project Management",
-    "text": "Project Management"
+    "text": "Project Management\n\nTools\nGitHub Projects"
   },
   {
     "objectID": "note/flexible_fixest/index.html#combine-several-regressions-using-etable",
@@ -80,7 +80,245 @@
     "objectID": "note/flexible_fixest/index.html#combine-estimation-results-using-etable",
     "href": "note/flexible_fixest/index.html#combine-estimation-results-using-etable",
     "title": "Flexible Regression Outputs with {fixest}",
-    "section": "3 Combine Estimation Results using etable()",
-    "text": "3 Combine Estimation Results using etable()\n\n# Reg 1\n\nreg1 &lt;- feols(\n  wage ~ educ + age,\n  df\n)\n\nreg1\n\nOLS estimation, Dep. Var.: wage\nObservations: 47,976\nStandard-errors: IID \n             Estimate Std. Error  t value   Pr(&gt;|t|)    \n(Intercept) -1340.061  228.55571 -5.86317 4.5708e-09 ***\neduc          521.960   14.33997 36.39894  &lt; 2.2e-16 ***\nage           277.909    3.72721 74.56229  &lt; 2.2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\nRMSE: 8,941.9   Adj. R2: 0.115895\n\nreg1 |&gt; etable()\n\n                               reg1\nDependent Var.:                wage\n                                   \nConstant        -1,340.1*** (228.6)\neduc               522.0*** (14.34)\nage                277.9*** (3.727)\n_______________ ___________________\nS.E. type                       IID\nObservations                 47,976\nR2                          0.11593\nAdj. R2                     0.11589\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n# Reg 2\n\nreg2 &lt;- feols(\n  wage ~ educ + age + black + marr | \n    countyfips + year,\n  df, \n  vcov = ~countyfips + year\n)\n\nreg2\n\nOLS estimation, Dep. Var.: wage\nObservations: 47,976\nFixed-effects: countyfips: 50,  year: 3\nStandard-errors: Clustered (countyfips & year) \n       Estimate Std. Error   t value  Pr(&gt;|t|)    \neduc    455.883    17.5685  25.94881 0.0014818 ** \nage     175.803    55.6531   3.15890 0.0872918 .  \nblack -1762.725   130.7620 -13.48041 0.0054579 ** \nmarr   5510.913   473.3828  11.64156 0.0072980 ** \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\nRMSE: 8,621.1     Adj. R2: 0.177284\n                Within R2: 0.175213\n\nreg2 |&gt; etable()\n\n                              reg2\nDependent Var.:               wage\n                                  \neduc               455.9** (17.57)\nage                 175.8. (55.65)\nblack           -1,762.7** (130.8)\nmarr             5,510.9** (473.4)\nFixed-Effects:  ------------------\ncountyfips                     Yes\nyear                           Yes\n_______________ __________________\nS.E.: Clustered   by: coun. & year\nObservations                47,976\nR2                         0.17823\nWithin R2                  0.17521\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n# Combine the two tables\n\netable(reg1, reg2)\n\n                               reg1               reg2\nDependent Var.:                wage               wage\n                                                      \nConstant        -1,340.1*** (228.6)                   \neduc               522.0*** (14.34)    455.9** (17.57)\nage                277.9*** (3.727)     175.8. (55.65)\nblack                               -1,762.7** (130.8)\nmarr                                 5,510.9** (473.4)\nFixed-Effects:  ------------------- ------------------\ncountyfips                       No                Yes\nyear                             No                Yes\n_______________ ___________________ __________________\nS.E. type                       IID   by: coun. & year\nObservations                 47,976             47,976\nR2                          0.11593            0.17823\nWithin R2                        --            0.17521\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+    "section": "5 Combine Estimation Results using etable()",
+    "text": "5 Combine Estimation Results using etable()\n\n# Reg 1\nreg1 &lt;- feols(wage ~ educ + age)\n\n# Reg 2: Add FE\nreg2 &lt;- feols(\n  wage ~ educ + age + black + marr | \n    countyfips + year\n)\n\n# Reg 3: Use twoway clustering\nreg3 &lt;- feols(\n  wage ~ educ + age + black + marr | \n    countyfips + year,\n  vcov = ~countyfips + year\n)\n\n# Combine the three tables\netable(reg1, reg2, reg3)\n\n                               reg1                reg2               reg3\nDependent Var.:                wage                wage               wage\n                                                                          \nConstant        -1,340.1*** (228.6)                                       \neduc               522.0*** (14.34)    455.9*** (14.82)    455.9** (17.57)\nage                277.9*** (3.727)    175.8*** (4.007)     175.8. (55.65)\nblack                               -1,762.7*** (134.8) -1,762.7** (130.8)\nmarr                                 5,510.9*** (101.6)  5,510.9** (473.4)\nFixed-Effects:  ------------------- ------------------- ------------------\ncountyfips                       No                 Yes                Yes\nyear                             No                 Yes                Yes\n_______________ ___________________ ___________________ __________________\nS.E. type                       IID      by: countyfips   by: coun. & year\nObservations                 47,976              47,976             47,976\nR2                          0.11593             0.17823            0.17823\nWithin R2                        --             0.17521            0.17521\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+  },
+  {
+    "objectID": "cv/index.html#note",
+    "href": "cv/index.html#note",
+    "title": "Curriculum Vitae",
+    "section": "Note",
+    "text": "Note\n\nBefore moving to Switzerland in 2022, I completed my studies and worked in the private sector in Japan for about two years.\nA full PDF version of my CV is available upon request."
+  },
+  {
+    "objectID": "cv/index.html#short-cv-since-2022",
+    "href": "cv/index.html#short-cv-since-2022",
+    "title": "Curriculum Vitae",
+    "section": "Short CV (since 2022)",
+    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, Institute of Economics and Econometrics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, HEC Lausanne, University of Lausanne\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sebastien Houde, University of Lausanne\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#split-estimation-by-group-specifying-split-argument",
+    "href": "note/flexible_fixest/index.html#split-estimation-by-group-specifying-split-argument",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "6 Split Estimation by Group specifying split argument",
+    "text": "6 Split Estimation by Group specifying split argument\n\n# df |&gt; count(year)\n# A tibble: 3 × 2\n#    year     n\n#   &lt;dbl&gt; &lt;int&gt;\n# 1  1974 15992\n# 2  1975 15992\n# 3  1978 15992\n\nfeols(\n  wage ~ educ + age + black + marr | \n    countyfips,\n  vcov = ~countyfips,\n  split = ~year\n) |&gt; \n  etable()\n\n                feols(wage ~ edu..1 feols(wage ~ edu..2 feols(wage ~ edu..3\nSample (year)                  1974                1975                1978\nDependent Var.:                wage                wage                wage\n                                                                           \neduc               425.0*** (23.82)    478.9*** (24.42)    465.5*** (24.31)\nage                256.8*** (6.229)    203.0*** (6.948)    66.84*** (7.179)\nblack           -1,578.9*** (216.2) -1,664.9*** (238.8) -2,059.9*** (288.2)\nmarr             6,104.4*** (173.0)  5,850.4*** (150.2)  4,582.0*** (174.8)\nFixed-Effects:  ------------------- ------------------- -------------------\ncountyfips                      Yes                 Yes                 Yes\n_______________ ___________________ ___________________ ___________________\nS.E.: Clustered      by: countyfips      by: countyfips      by: countyfips\nObservations                 15,992              15,992              15,992\nR2                          0.25965             0.22264             0.09148\nWithin R2                   0.25755             0.21946             0.08902\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#setup",
+    "href": "note/flexible_fixest/index.html#setup",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "2 Setup",
+    "text": "2 Setup\n\n2.1 Package\n\npacman::p_load(tidyverse, fixest)\n\n\n\n2.2 Read data\n\ndf &lt;- readr::read_csv(\"https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv\")\n\nRows: 47976 Columns: 19\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr  (1): statefips\ndbl (18): id, treat, age, educ, black, hisp, marr, nodegree, year, wage, x1,...\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\ndf |&gt; glimpse()\n\nRows: 47,976\nColumns: 19\n$ id         &lt;dbl&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, …\n$ treat      &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1,…\n$ age        &lt;dbl&gt; 45, 21, 38, 48, 18, 22, 48, 18, 48, 45, 34, 16, 53, 19, 27,…\n$ educ       &lt;dbl&gt; 11, 14, 12, 6, 8, 11, 10, 11, 9, 12, 14, 10, 10, 12, 12, 10…\n$ black      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…\n$ hisp       &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,…\n$ marr       &lt;dbl&gt; 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0,…\n$ nodegree   &lt;dbl&gt; 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0,…\n$ year       &lt;dbl&gt; 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974, 1974,…\n$ wage       &lt;dbl&gt; 21516.6699, 3175.9709, 23039.0195, 24994.3691, 1669.2950, 1…\n$ x1         &lt;dbl&gt; 0.04937047, 0.37316579, 0.83696927, 0.49122805, 0.51762141,…\n$ x2         &lt;dbl&gt; 0.972925922, 0.600960515, 0.660624120, 0.354983920, 0.73535…\n$ x3         &lt;dbl&gt; 0.2415946, 0.5584978, 0.1053317, 0.8371334, 0.8867501, 0.40…\n$ x4         &lt;dbl&gt; 0.4753968, 0.2689705, 0.2597347, 0.7493716, 0.3768940, 0.14…\n$ row        &lt;dbl&gt; 46, 9, 18, 48, 47, 24, 32, 38, 41, 15, 5, 40, 35, 41, 6, 19…\n$ statefips  &lt;chr&gt; \"01\", \"01\", \"01\", \"01\", \"01\", \"01\", \"01\", \"01\", \"01\", \"01\",…\n$ countyfips &lt;dbl&gt; 91, 17, 35, 95, 93, 47, 63, 75, 81, 29, 9, 79, 69, 81, 11, …\n$ lon        &lt;dbl&gt; -87.78879, -85.28875, -87.00211, -86.28888, -87.87874, -87.…\n$ lat        &lt;dbl&gt; 32.33174, 32.89123, 31.41561, 34.32960, 34.11633, 32.37994,…"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#basic-estimation-with-feols",
+    "href": "note/flexible_fixest/index.html#basic-estimation-with-feols",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "4 Basic Estimation with feols()",
+    "text": "4 Basic Estimation with feols()\n\n4.1 Multiple variables\n\ndf |&gt; feols(\n  wage ~ educ + age + black + marr\n)\n\nOLS estimation, Dep. Var.: wage\nObservations: 47,976\nStandard-errors: IID \n             Estimate Std. Error   t value   Pr(&gt;|t|)    \n(Intercept)  -950.721  223.15696  -4.26033 2.0452e-05 ***\neduc          456.568   13.95431  32.71880  &lt; 2.2e-16 ***\nage           175.777    4.01763  43.75147  &lt; 2.2e-16 ***\nblack       -1763.186  152.17435 -11.58662  &lt; 2.2e-16 ***\nmarr         5507.951   97.27784  56.62082  &lt; 2.2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\nRMSE: 8,639.6   Adj. R2: 0.174619\n\n\n\nNote: etable() function is used to display the estimation results in a nice table format.\n\n\ndf |&gt; feols(\n  wage ~ educ + age + black + marr\n) |&gt; \n  etable()\n\n                feols(df, wage ~ ..\nDependent Var.:                wage\n                                   \nConstant          -950.7*** (223.2)\neduc               456.6*** (13.95)\nage                175.8*** (4.018)\nblack           -1,763.2*** (152.2)\nmarr             5,508.0*** (97.28)\n_______________ ___________________\nS.E. type                       IID\nObservations                 47,976\nR2                          0.17469\nAdj. R2                     0.17462\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n\n4.2 Multiple fixed effects\n\ndf |&gt; feols(\n  wage ~ educ + age + black + marr | \n    countyfips + year\n)\n\nOLS estimation, Dep. Var.: wage\nObservations: 47,976\nFixed-effects: countyfips: 50,  year: 3\nStandard-errors: Clustered (countyfips) \n       Estimate Std. Error  t value  Pr(&gt;|t|)    \neduc    455.883   14.82402  30.7530 &lt; 2.2e-16 ***\nage     175.803    4.00740  43.8695 &lt; 2.2e-16 ***\nblack -1762.725  134.83084 -13.0736 &lt; 2.2e-16 ***\nmarr   5510.913  101.57083  54.2568 &lt; 2.2e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\nRMSE: 8,621.1     Adj. R2: 0.177284\n                Within R2: 0.175213\n\n\n\n\n4.3 Clustered standard errors with vcov\n\ndf |&gt; feols(\n  wage ~ educ + age + black + marr | \n    countyfips + year,\n  vcov = ~countyfips + year\n)\n\nOLS estimation, Dep. Var.: wage\nObservations: 47,976\nFixed-effects: countyfips: 50,  year: 3\nStandard-errors: Clustered (countyfips & year) \n       Estimate Std. Error   t value  Pr(&gt;|t|)    \neduc    455.883    17.5685  25.94881 0.0014818 ** \nage     175.803    55.6531   3.15890 0.0872918 .  \nblack -1762.725   130.7620 -13.48041 0.0054579 ** \nmarr   5510.913   473.3828  11.64156 0.0072980 ** \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\nRMSE: 8,621.1     Adj. R2: 0.177284\n                Within R2: 0.175213"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#set-dataset-grobally",
+    "href": "note/flexible_fixest/index.html#set-dataset-grobally",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "3 Set Dataset Grobally",
+    "text": "3 Set Dataset Grobally\n\nSet the dataset globally using setFixest_estimation() function so that we don’t need to specify the data argument in the feols() function in each estimation.\nIn Section 3, we will speficy the data argument in the feols() function to show how it works.\nIn Section 4 onward, we won’t specify the data argument in the feols() function.\n\n\nfixest::setFixest_estimation(data = df)"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#interaction-terms",
+    "href": "note/flexible_fixest/index.html#interaction-terms",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "7 Interaction Terms",
+    "text": "7 Interaction Terms"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#multi-model-estimations",
+    "href": "note/flexible_fixest/index.html#multi-model-estimations",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "6 Multi-Model Estimations",
+    "text": "6 Multi-Model Estimations\n\n6.1 Split estimation by group\n\n# df |&gt; count(year)\n# A tibble: 3 × 2\n#    year     n\n#   &lt;dbl&gt; &lt;int&gt;\n# 1  1974 15992\n# 2  1975 15992\n# 3  1978 15992\n\nfeols(\n  wage ~ educ + age + black + marr | \n    countyfips,\n  vcov = ~countyfips,\n  split = ~year\n) |&gt; \n  etable()\n\n                feols(wage ~ edu..1 feols(wage ~ edu..2 feols(wage ~ edu..3\nSample (year)                  1974                1975                1978\nDependent Var.:                wage                wage                wage\n                                                                           \neduc               425.0*** (23.82)    478.9*** (24.42)    465.5*** (24.31)\nage                256.8*** (6.229)    203.0*** (6.948)    66.84*** (7.179)\nblack           -1,578.9*** (216.2) -1,664.9*** (238.8) -2,059.9*** (288.2)\nmarr             6,104.4*** (173.0)  5,850.4*** (150.2)  4,582.0*** (174.8)\nFixed-Effects:  ------------------- ------------------- -------------------\ncountyfips                      Yes                 Yes                 Yes\n_______________ ___________________ ___________________ ___________________\nS.E.: Clustered      by: countyfips      by: countyfips      by: countyfips\nObservations                 15,992              15,992              15,992\nR2                          0.25965             0.22264             0.09148\nWithin R2                   0.25755             0.21946             0.08902\n---\nSignif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\n\n\n\n6.2 Multiple dependent variables\n\n\n6.3 Stepwise regression"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#macros",
+    "href": "note/flexible_fixest/index.html#macros",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "8 Macros",
+    "text": "8 Macros\n\n# treat\n# contr_demog\n# contr_geo\n# fe"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#presenting-better-tables-for-meetings-and-other-non-publication-purposes",
+    "href": "note/flexible_fixest/index.html#presenting-better-tables-for-meetings-and-other-non-publication-purposes",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "9 Presenting Better Tables for Meetings and Other Non-Publication Purposes",
+    "text": "9 Presenting Better Tables for Meetings and Other Non-Publication Purposes"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#export-table-in-latex-format",
+    "href": "note/flexible_fixest/index.html#export-table-in-latex-format",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "10 Export Table in LaTeX Format",
+    "text": "10 Export Table in LaTeX Format"
+  },
+  {
+    "objectID": "note/flexible_fixest/index.html#exports-table-in-latex-format",
+    "href": "note/flexible_fixest/index.html#exports-table-in-latex-format",
+    "title": "Flexible Regression Outputs with {fixest}",
+    "section": "10 Exports Table in LaTeX Format",
+    "text": "10 Exports Table in LaTeX Format"
+  },
+  {
+    "objectID": "note/tool/index.html#productivity",
+    "href": "note/tool/index.html#productivity",
+    "title": "Tools",
+    "section": "Productivity",
+    "text": "Productivity\n\nProject management: GitHub projects (Trello and Notion could be alternatives)\n\nI will write a post entirely about GitHub projects\n\nTask management: GitHub projects (for project-relevant tasks), TickTick (for personal tasks)\nNote takng: Notion and Obsidian\nCommunication: Discord"
+  },
+  {
+    "objectID": "note/tool/index.html#setup",
+    "href": "note/tool/index.html#setup",
+    "title": "Tools",
+    "section": "2 Setup",
+    "text": "2 Setup\n\nAAA"
+  },
+  {
+    "objectID": "note/index.html#data-analysis",
+    "href": "note/index.html#data-analysis",
+    "title": "Note",
+    "section": "Data Analysis",
+    "text": "Data Analysis\n\nFlexible Regression Outputs with {fixest}"
+  },
+  {
+    "objectID": "note/tool/index.html#text-editors",
+    "href": "note/tool/index.html#text-editors",
+    "title": "Tools",
+    "section": "Text Editors",
+    "text": "Text Editors\n\nLaTex: Overleaf"
+  },
+  {
+    "objectID": "note/tool/index.html#pdf-viewers-and-editors",
+    "href": "note/tool/index.html#pdf-viewers-and-editors",
+    "title": "Tools",
+    "section": "PDF Viewers and Editors",
+    "text": "PDF Viewers and Editors\n\nPDF Expert\nGoodNotes (for presentations with iPad)"
+  },
+  {
+    "objectID": "note/tool/index.html#text-editing",
+    "href": "note/tool/index.html#text-editing",
+    "title": "Tools",
+    "section": "Text Editing",
+    "text": "Text Editing\n\nLaTex: Overleaf\nSlide: Beamer (for research presentations) and Quarto (for other presentations)"
+  },
+  {
+    "objectID": "note/tool/index.html",
+    "href": "note/tool/index.html",
+    "title": "Tools",
+    "section": "",
+    "text": "Here are the tools I use for research."
+  },
+  {
+    "objectID": "note/index.html#coding-project-management",
+    "href": "note/index.html#coding-project-management",
+    "title": "Note",
+    "section": "Coding, Project Management",
+    "text": "Coding, Project Management\n\nTools\nGitHub Projects"
+  },
+  {
+    "objectID": "note/project_management/index.html",
+    "href": "note/project_management/index.html",
+    "title": "Project Management",
+    "section": "",
+    "text": "Continuously updated."
+  },
+  {
+    "objectID": "note/project_management/index.html#productivity",
+    "href": "note/project_management/index.html#productivity",
+    "title": "Project Management",
+    "section": "Productivity",
+    "text": "Productivity\n\nProject management: GitHub projects (Trello and Notion could be alternatives)\n\nI will write a post entirely about GitHub projects\n\nTask management: GitHub projects (for project-relevant tasks), TickTick (for personal tasks)\nNote takng: Notion and Obsidian\nCommunication: Discord"
+  },
+  {
+    "objectID": "note/project_management/index.html#text-editing",
+    "href": "note/project_management/index.html#text-editing",
+    "title": "Project Management",
+    "section": "Text Editing",
+    "text": "Text Editing\n\nLaTex: Overleaf\nSlide: Beamer (for research presentations) and Quarto (for other presentations)"
+  },
+  {
+    "objectID": "note/project_management/index.html#pdf-viewers-and-editors",
+    "href": "note/project_management/index.html#pdf-viewers-and-editors",
+    "title": "Project Management",
+    "section": "PDF Viewers and Editors",
+    "text": "PDF Viewers and Editors\n\nPDF Expert\nGoodNotes (for presentations with iPad)"
+  },
+  {
+    "objectID": "note/index.html#management-and-coding",
+    "href": "note/index.html#management-and-coding",
+    "title": "Note",
+    "section": "Management and Coding",
+    "text": "Management and Coding\n\nTools\nProject Management (continuously updated)\nGitHub Projects"
+  },
+  {
+    "objectID": "note/project_management/index.html#software-and-tools",
+    "href": "note/project_management/index.html#software-and-tools",
+    "title": "Project Management",
+    "section": "1 Software and Tools",
+    "text": "1 Software and Tools\n\nProject management\n\nGitHub (or GitLab) for version controls and effective documentations/management: README, Issues, branches/pull-request, Wiki, and more. Everyone should use them.\nGitHub Projects for task management and planning.\nNotion or Trello for documentation. Also for planning and task management (when GitHub isn’t needed).\n\nCommunication\n\nAlways talk in threads for each issue/topic, in the right channel.\nDiscord: Free\nSlack: Better UI (imo) but only last 90-days of messages accessible (so use Discord)\nMeeting notes\n\nAvoid Word/GoogleDocs for quick access (requires opening each file to refer to it and doesn’t easily support linking between items).\nNotion, GitHub, etc., are better alternatives.\n\n\nOthers\n\nAI tools for coding and writing: GitHub Copilot, Microsoft Copilot, etc.\nEcon Paper Search: Search econ papers by journals"
+  },
+  {
+    "objectID": "note/project_management/index.html#general-guideline",
+    "href": "note/project_management/index.html#general-guideline",
+    "title": "Project Management",
+    "section": "2 General Guideline",
+    "text": "2 General Guideline\n\n2.1 Useful or new\n(especially 1-4 are useful)\n\nMatthew Gentzkow\n\nLab Manual (archived version) see Lab Manual and Appendices in Wiki\n\nLab Administration\nMeeting Notes\nJMSLab Notes\nTemplate\nRequired info for README\n\nGentzkowLabTemplate\n\nBrendan M. Price — Workflow for empirical research\nRicardo Dahis — Template for Empirical Papers\nKarl Broman — initial steps toward reproducible research\n\nEveryone should read “Organize your data and code”\nTurn repetitive code into functions\nMake frequently used functions into a package\n\nemLab — Standard Operating Procedures | repository\nGrant McDermott — Data science for economists\nSilvia Peracchi — A collection of tips for applied research in Economics\nBergmann, Deer, & Langer (2021) Reproducible Data Analytic Workflows for Economics\n\nChapter 2 Project Organization\n\nSmith (2023) Reproducible Epidemiology in R — Workflow\nKok (2018) How to keep your research projects organized: folder structure\nOffice of the AEA Data Editor\n\nPreparing your files for verification\nGuidance\nA template README for social science replication packages\n\nBjarkefur, Cardoso de Andrade, Daniels, & Jones (2021) Development Research in Practice: The DIME Analytics Data Handbook\n\nSeminar video (in English) and slides\n\n\n\n\n2.2 Old information (but still nice to see)\n\nGentzkow & Shapiro (2014) — Code and Data for the Social Sciences: A Practitioner’s Guide\nKnittel & Metaxoglou (2018) “Working with Data: Two Empiricists’ Experience” Journal of Econometric Methods, vol.7, no.1"
+  },
+  {
+    "objectID": "note/project_management/index.html#folder-structure-example",
+    "href": "note/project_management/index.html#folder-structure-example",
+    "title": "Project Management",
+    "section": "3 Folder Structure Example",
+    "text": "3 Folder Structure Example\nMy preferred (basic) structure (you can generate a tree with tree.nathanfriend.com )\n.\n└── your_project_name/\n    ├── data/\n    │   ├── processed/\n    │   │   ├── building\n    │   │   ├── temperature\n    │   │   └── main.rds\n    │   └── raw/\n    │       ├── building\n    │       ├── temperature\n    │       └── shapefile\n    ├── document\n    ├── draft/\n    │   └── submission/\n    │       └── 2024_10_PNAS/\n    │           ├── manuscript.tex\n    │           └── manuscript.pdf\n    ├── output/\n    │   ├── figure/\n    │   │   ├── figure1_map.pdf\n    │   │   ├── figure2A_hist.pdf\n    │   │   └── figure2B_binscatter.pdf\n    │   └── table/\n    │       ├── table1_summarystats.tex\n    │       ├── table2_regression_baseline.tex\n    │       ├── tableA1_data_list.tex\n    │       └── tableB1_regression_falsification.tex\n    ├── source/\n    │   ├── analysis/\n    │   │   ├── figure/\n    │   │   │   ├── figure1_map.R\n    │   │   │   └── figure2_hist_binscatter.R\n    │   │   └── table/\n    │   │       ├── table1_summarystats.R\n    │   │       ├── table2_regression_baseline.R\n    │   │       └── tableB1_regression_falsification.R\n    │   ├── data_eda/\n    │   │   ├── housing.html\n    │   │   └── housing.qmd\n    │   └── make_dataset/\n    │       ├── make_variables.R\n    │       ├── merge.R\n    │       └── temperature.R\n    ├── README.md\n    └── your_project_name.Rproj"
+  },
+  {
+    "objectID": "note/project_management/index.html#naming-conventions",
+    "href": "note/project_management/index.html#naming-conventions",
+    "title": "Project Management",
+    "section": "4 Naming Conventions",
+    "text": "4 Naming Conventions\n\nRead the first few chapters of Boswell and Foucher (2011) The Art of Readable Code\nUse consistent case (uppercase or lowercase) and names\nAvoid spaces in file/folder names:\n\nGood: make_variables.R, table1_summarystats.tex\nBad: Make New variable.R, Table 1 (new).tex\n\nVariable names\n\nUse prefixes (especially for binary variables) like is_ or has_ to clearly show they hold TRUE / FALSE values.\nAvoid ambiguous names:\n\nGood: is_famele, has_renovated\nBad: female, renovation"
+  },
+  {
+    "objectID": "note/project_management/index.html#readme",
+    "href": "note/project_management/index.html#readme",
+    "title": "Project Management",
+    "section": "5 README",
+    "text": "5 README\n\nIt is better to update regularly to document data sources, dataset construction steps, new files, etc.\nFind Economic Articles with Data lists economics papers with replication packages and README files. Reviewing both good and poor examples can be helpful."
+  },
+  {
+    "objectID": "note/project_management/index.html#r",
+    "href": "note/project_management/index.html#r",
+    "title": "Project Management",
+    "section": "6 R",
+    "text": "6 R\n\nAlways use:\n\n.Rproj\nhere::here() → means stop using setwd()\n\nIdeally use {targets} and {renv} (for dependency management) (I’m still learning)\nAlso use a Markdown-like heading structure:\n\nUse Cmd + Shift + R for the first heading (if you like)\n\nUse Quarto to create meeting notes and share intermediate results\nThe tidyverse team — Tidyverse style guide\nUse {fixest} for regression.\n\nFor Stata users: stata2R — Regression analysis with fixest\n\nRodrigues (2023) Building reproducible analytical pipelines with R"
+  },
+  {
+    "objectID": "note/project_management/index.html#stata",
+    "href": "note/project_management/index.html#stata",
+    "title": "Project Management",
+    "section": "7 Stata",
+    "text": "7 Stata\n\nStop using cd. See tweet for why\n\nInstead, use dynamic and absolute file path (more generalizable)\nRefer to World Bank DIME’s Stata Coding Practices"
+  },
+  {
+    "objectID": "note/project_management/index.html#github",
+    "href": "note/project_management/index.html#github",
+    "title": "Project Management",
+    "section": "8 Git(Hub)",
+    "text": "8 Git(Hub)\n\nUse .gitignore efficiently (example)"
+  },
+  {
+    "objectID": "note/project_management/index.html#other-articles-and-materials",
+    "href": "note/project_management/index.html#other-articles-and-materials",
+    "title": "Project Management",
+    "section": "9 Other Articles and Materials",
+    "text": "9 Other Articles and Materials\n\nProject overview\n\nNature articles\n\nHow to manage your time as a researcher\nWhy I use Notion to organize my PhD research\nDemocratic databases: science on GitHub\nManaging up: how to communicate effectively with your PhD adviser\n\nThe Missing Semester of Your CS Education\nStarting new projects (X thread)\n\nCoding\n\nDaniel M. Sullivan — Best Practices when Writing Code\nCoding for Economists"
   }
 ]
