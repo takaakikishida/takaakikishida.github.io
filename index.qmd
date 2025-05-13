@@ -45,7 +45,8 @@ My name in Japanese: 岸田隆明
 \
 
 ### Other Works
-- **Package**: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
-- **Note**: [Project management](note/project_management/)
-- **Note**: Replication and translation exercises
-- **Shiny App**: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland
+- **Package** 📦: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
+- **Note** 📖: [Project management](note/project_management/)
+- **Note** 📖: Replication and translation exercises
+- **Shiny App** 🗺️: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland
+- **Marathon** 🏃: I have completed the Geneva Marathon (May 2025) and am currently training for my next one in 2026.
