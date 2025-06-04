@@ -8,12 +8,6 @@ header-includes: |
       text-align: center;
       margin-top: 15px;
     }
-    h2 {
-      margin-top: 60px;
-    }
-    h3 {
-      margin-top: 20px;
-    }
     </style>
 ---
 
@@ -22,12 +16,8 @@ header-includes: |
 
 ## Working Papers
 
-- Rent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland<br>
-  &emsp; <span class="co-author">with Sébastien Houde and Harald Mayr</span>
-
 - Revisiting Birth Order Effects on Child Health: Evidence from Bangladesh <br>
-  &emsp; <span class="co-author">with Masanori Matsuura-Kannari and Abu Hayat Md. Saiful Islam</span>
-
+  &emsp; <span class="co-author">with Matsuura-Kannari, M. and Islam, A.H.M.S.
 
 
 ## Journal Publications
@@ -44,7 +34,7 @@ header-includes: |
     **Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia**<br>
     &emsp; <span class="author-self">Kishida, T.</span>
     <span class="co-author">, Ito, T., Yamamoto, Y.</span><br>
-    &emsp; *Journal of Development Studies*, 2024
+    &emsp; ***Journal of Development Studies***, 2024
     <span class="co-author">, 61(3), 424–441.</span><br>
     &emsp; +Abstract | +BibTex | [PDF](https://takaakikishida.github.io/research/file/2024_JDS_Kishida_Deforestation_and_Children.pdf){target="_blank"} | [Journal Website](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"}<br>
     ![](/image/forest_loss_2012.jpeg)
@@ -58,8 +48,10 @@ header-includes: |
 <!--   ![](/image/forest_loss_2012.jpeg) -->
 
 
-
 ## Work in Progress
+
+- Rent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland<br>
+  &emsp; <span class="co-author">with Houde, S. and Mayr, H</span>
 
 - Air Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries
 
@@ -67,8 +59,7 @@ header-includes: |
   &emsp; <span class="co-author">with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A. </span>
 
 
-
-## Other Journal Publications (in Interdisciplinary Fields)
+## Other Publications (Collaborative / Interdisciplinary Work)
 
 <!-- https://stackoverflow.com/questions/77771258/can-quarto-render-a-descending-ordered-markdown-list-into-revealjs -->
 

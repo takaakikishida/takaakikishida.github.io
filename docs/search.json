@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Takaaki Kishida",
     "section": "",
-    "text": "Takaaki Kishida\n  \n\n\nI am a PhD student in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, development, and health economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\nMy name in Japanese: 岸田隆明\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: Project management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (May 2025) and am currently training for my next one in 2026."
+    "text": "Takaaki Kishida\n  \n\n\nI am a PhD student in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental and development economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\nMy name in Japanese: 岸田隆明\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works and Activities\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: My Tools\nNote 📖: Project Management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (May 2025) and am currently training for my next one in 2026."
   },
   {
     "objectID": "research/index.html#working-papers",
     "href": "research/index.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nRent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland   with Sébastien Houde and Harald Mayr\nRevisiting Birth Order Effects on Child Health: Evidence from Bangladesh    with Masanori Matsuura-Kannari and Abu Hayat Md. Saiful Islam"
+    "text": "Working Papers\n\nRevisiting Birth Order Effects on Child Health: Evidence from Bangladesh    with Matsuura-Kannari, M. and Islam, A.H.M.S."
   },
   {
     "objectID": "research/index.html#journal-publications",
@@ -25,7 +25,7 @@
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries\nSunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses   with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A."
+    "text": "Work in Progress\n\nRent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland   with Houde, S. and Mayr, H\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries\nSunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses   with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A."
   },
   {
     "objectID": "research/index.html#other-journal-publications-in-interdisciplinary-fields",
@@ -172,7 +172,7 @@
     "href": "note/tool/index.html#productivity",
     "title": "Tools",
     "section": "Productivity",
-    "text": "Productivity\n\nProject management: GitHub projects (Trello and Notion could be alternatives)\n\nI will write a post entirely about GitHub projects\n\nTask management: GitHub projects (for project-relevant tasks), TickTick (for personal tasks)\nNote takng: Notion and Obsidian\nCommunication: Discord"
+    "text": "Productivity\n\nProject management: GitHub Projects (Trello and Notion could be alternatives)\n\nI will write a post entirely about GitHub projects\n\nTask management: GitHub Projects (for project-relevant tasks), TickTick (for personal tasks)\nNote takng: Notion and Obsidian\nCommunication: Discord and Slack"
   },
   {
     "objectID": "note/tool/index.html#setup",
@@ -320,5 +320,19 @@
     "title": "Project Management",
     "section": "9 Other Articles and Materials",
     "text": "9 Other Articles and Materials\n\nProject overview\n\nNature articles\n\nHow to manage your time as a researcher\nWhy I use Notion to organize my PhD research\nDemocratic databases: science on GitHub\nManaging up: how to communicate effectively with your PhD adviser\n\nThe Missing Semester of Your CS Education\nStarting new projects (X thread)\n\nCoding\n\nDaniel M. Sullivan — Best Practices when Writing Code\nCoding for Economists"
+  },
+  {
+    "objectID": "research/index.html#other-publications-collaborative-interdisciplinary-work",
+    "href": "research/index.html#other-publications-collaborative-interdisciplinary-work",
+    "title": "Research",
+    "section": "Other Publications (Collaborative / Interdisciplinary Work)",
+    "text": "Other Publications (Collaborative / Interdisciplinary Work)\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+  },
+  {
+    "objectID": "note/tool/index.html#hardware",
+    "href": "note/tool/index.html#hardware",
+    "title": "Tools",
+    "section": "Hardware",
+    "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S\n\nHHKB stands for Happy Hacking Keyboard\nI use it for its unique layout and the almost musical feel of its keystrokes\nTyping on it is genuinely a pleasure"
   }
 ]

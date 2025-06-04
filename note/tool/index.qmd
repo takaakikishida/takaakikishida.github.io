@@ -13,12 +13,6 @@ header-includes: |
       text-align: center;
       margin-top: 15px;
     }
-    h2 {
-      margin-top: 60px;
-    }
-    h3 {
-      margin-top: 20px;
-    }
     </style>
 ---
 
@@ -30,11 +24,11 @@ Here are the tools I use for research.
 
 ## Productivity
 
-- Project management: [GitHub projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) (Trello and Notion could be alternatives)
+- Project management: [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) (Trello and Notion could be alternatives)
   - I will write a post entirely about GitHub projects
-- Task management: GitHub projects (for project-relevant tasks), [TickTick](https://ticktick.com/?language=en_US) (for personal tasks)
+- Task management: GitHub Projects (for project-relevant tasks), [TickTick](https://ticktick.com/?language=en_US) (for personal tasks)
 - Note takng: [Notion](https://www.notion.com/) and [Obsidian](https://obsidian.md/)
-- Communication: [Discord](https://discord.com/)
+- Communication: [Discord](https://discord.com/) and [Slack](https://slack.com/)
 
 
 ## Text Editing
@@ -47,3 +41,13 @@ Here are the tools I use for research.
 
 - [PDF Expert](https://pdfexpert.com/)
 - [GoodNotes](https://www.goodnotes.com/) (for presentations with iPad)
+
+
+## Hardware
+
+- Laptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)
+- Keyboard: [HHKB Professional HYBRID Type-S](https://www.hhkeyboard.com/uk/products/hybrid-type-s) 
+  - HHKB stands for `Happy Hacking Keyboard`
+  - I use it for its unique layout and the almost musical feel of its keystrokes
+  - Typing on it is genuinely a pleasure
+  

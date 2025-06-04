@@ -1,18 +1,22 @@
-/* ---------- Font size ---------- */
+
+/* ================================
+   Typography: Headings & Text
+================================== */
+
 h1 {
-  font-size: 1.95em; /* default is about 2.5em */
+  font-size: 1.95em; /* default ~2.5em */
 }
 
 h2 {
-  font-size: 1.45em; /* default: 2em */
+  font-size: 1.45em; /* default ~2em */
+  margin-top: 50px;
 }
 
 h3 {
-  font-size: 1.15em; /* default: 1.75em */
+  font-size: 1.15em; /* default ~1.75em */
+  margin-top: 20px;
 }
 
-
-/* ---------- Font color ---------- */
 .author-self {
   color: #585858;
   font-weight: normal;
@@ -25,73 +29,88 @@ h3 {
 }
 
 
-/* ---------- Margin (before sections) ---------- */
-h2 {
-  margin-top: 60px;
-}
+/* ================================
+   List Formatting
+================================== */
 
-h3 {
-  margin-top: 20px;
-}
-
-
-/* li内の余計なスペースを削除 */
+/* Reduces vertical spacing between list (li) items */
 ol > li {
-  margin-bottom: 10px; /* リスト間のスペースは調整 */
+  margin-bottom: 10px; /* Adjust space between items */
 }
 
-/* li内のbrタグ間のスペースを最小化 */
+/* Minimizes spacing around line breaks inside list (li) items */
 ol > li br {
-  line-height: 1; /* 必要に応じて変更 */
+  line-height: 1; /* Prevent excessive vertical space */
   margin: 0;
   padding: 0;
 }
 
 
-/* ---------- Top ---------- */
+/* ================================
+   Layout: Grid & Top Section
+================================== */
+
+/* Ensures the profile image scales proportionally and aligns with text */
 .profile-pic {
   max-width: 100%;
   height: auto;
-  vertical-align: middle; /* テキストと高さを揃える */
+  vertical-align: middle; /* Aligns vertically with surrounding text */
 }
 
+/* Creates a horizontal layout with top alignment and spacing between columns */
 .grid {
   display: flex;
-  align-items: flex-start; /* 上端で揃える */
-  gap: 20px;
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px;               /* Horizontal spacing between columns */
   margin-top: 0px;
 }
 
+/* Each column takes up equal horizontal space */
 .column {
   flex: 1;
 }
 
 
+/* ================================
+   Links
+================================== */
 
-/* ---------- 折りたたみ ---------- */
-
-/* TBC */
-
-
-
-/* ---------- リンクのスタイル設定 ---------- */
 a {
-  color: #267CB9; /* 好みのリンクカラーに変更可能 */
-  text-decoration: none; /* デフォルトでは下線を表示しない */
+  color: #267CB9;
+  text-decoration: none;
 }
 
-
-/* ホバー時のリンクスタイル */
+/* Adds underline only when hovering over a link to improve interactivity feedback */
 a:hover {
-  text-decoration: underline; /* カーソルを合わせたときのみ下線を表示 */
+  text-decoration: underline;
 }
 
 
-/* ---------- Indent ---------- */
+/* ================================
+   Navigation Styling
+================================== */
+
+/* Active page tab */
+.nav-link.active {
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+/* Hover effect on navbar links */
+.nav-link:hover {
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ================================
+   Utility Classes
+================================== */
+
 .indented {
     margin-left: 20px !important;
 }
-
-
-
-

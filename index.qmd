@@ -18,7 +18,7 @@ title: ""
 ::: {.column width="77%"}
 I am a **PhD student in Economics** at the [University of Geneva](https://www.unige.ch/gsem/en/research/institutes/iee/){target="_blank"}, Switzerland.
 
-My research interests lie at the intersection of **environmental**, **development**, and **health** economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large **surveys**, **(satellite) remote sensing**, and other **spatial/GIS** data. 
+My research interests lie at the intersection of **environmental** and **development** economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large **surveys**, **(satellite) remote sensing**, and other **spatial/GIS** data. 
 
 In addition, I enjoy working with **R** and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.
 
@@ -44,9 +44,10 @@ My name in Japanese: 岸田隆明
 
 \
 
-### Other Works
+### Other Works and Activities
 - **Package** 📦: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
-- **Note** 📖: [Project management](note/project_management/)
+- **Note** 📖: My [Tools](note/tool/)
+- **Note** 📖: [Project Management](note/project_management/)
 - **Note** 📖: Replication and translation exercises
 - **Shiny App** 🗺️: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland
-- **Marathon** 🏃: I have completed the Geneva Marathon (May 2025) and am currently training for my next one in 2026.
+- **Marathon** 🏃: I have completed the [Geneva Marathon](https://www.generaligenevemarathon.com/en) (May 2025) and am currently training for my next one in 2026.
