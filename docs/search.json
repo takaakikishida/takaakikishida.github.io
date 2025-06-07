@@ -200,14 +200,14 @@
     "href": "note/tool/index.html#pdf-viewers-and-editors",
     "title": "Tools",
     "section": "PDF Viewers and Editors",
-    "text": "PDF Viewers and Editors\n\nPDF Expert\nGoodNotes (for presentations with iPad)"
+    "text": "PDF Viewers and Editors\n\nPDF Expert\nSkim (for presentations with Mac)\nGoodNotes (for presentations with iPad)"
   },
   {
     "objectID": "note/tool/index.html#text-editing",
     "href": "note/tool/index.html#text-editing",
     "title": "Tools",
     "section": "Text Editing",
-    "text": "Text Editing\n\nLaTex: Overleaf\nSlide: Beamer (for research presentations) and Quarto (for other presentations)"
+    "text": "Text Editing\n\nLaTex: Overleaf\nSlide: Beamer (for research presentations) and Quarto (for other presentations)\nReference management: BibDesk"
   },
   {
     "objectID": "note/tool/index.html",
@@ -334,5 +334,12 @@
     "title": "Tools",
     "section": "Hardware",
     "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S\n\nHHKB stands for Happy Hacking Keyboard\nI use it for its unique layout and the almost musical feel of its keystrokes\nTyping on it is genuinely a pleasure"
+  },
+  {
+    "objectID": "note/tool/index.html#others",
+    "href": "note/tool/index.html#others",
+    "title": "Tools",
+    "section": "Others",
+    "text": "Others\n\nPen: Parker Ingenuity 5th and Mitsubishi JETSTREAM Prime"
   }
 ]

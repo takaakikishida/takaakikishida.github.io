@@ -43,6 +43,7 @@ header-includes: |
 - A full PDF version of my CV is available upon request.
 
 
+
 ## Short CV (since 2022)
 
 ### Education
@@ -58,6 +59,19 @@ header-includes: |
 </div>
 :::
 
+
+### TA
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2025</div>
+  <div class="cv-detail">Environmental Economics and Climate Change (Master's), University of Geneva 
+  <br>-- Served as Solo TA
+  <br>-- Led tutorials on causal inference, R programming, and a replication project</div>
+</div>
+:::
+
+
 ### RA
 
 ::: {.cv-container}
@@ -67,7 +81,17 @@ header-includes: |
 </div>
 <div class="cv-entry">
   <div class="cv-year">2023--2024</div>
-  <div class="cv-detail">For Sebastien Houde, University of Lausanne</div>
+  <div class="cv-detail">For Sébastien Houde, University of Lausanne</div>
+</div>
+:::
+
+
+### Referee Service
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2025</div>
+  <div class="cv-detail">Scientific Reports</div>
 </div>
 :::
 
@@ -79,4 +103,3 @@ header-includes: |
   <div class="cv-detail">Graduate Mentee, Mentorship Program, HEC Lausanne, Switzerland</div>
 </div>
 :::
-

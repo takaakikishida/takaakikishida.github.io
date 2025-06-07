@@ -35,11 +35,13 @@ Here are the tools I use for research.
 
 - LaTex: Overleaf
 - Slide: Beamer (for research presentations) and [Quarto](https://quarto.org/) (for other presentations)
+- Reference management: [BibDesk](https://bibdesk.sourceforge.io/)
 
 
 ## PDF Viewers and Editors
 
 - [PDF Expert](https://pdfexpert.com/)
+- [Skim](https://skim-app.sourceforge.io/) (for presentations with Mac)
 - [GoodNotes](https://www.goodnotes.com/) (for presentations with iPad)
 
 
@@ -50,4 +52,8 @@ Here are the tools I use for research.
   - HHKB stands for `Happy Hacking Keyboard`
   - I use it for its unique layout and the almost musical feel of its keystrokes
   - Typing on it is genuinely a pleasure
-  
+
+
+## Others
+
+- Pen: [Parker Ingenuity 5th](https://www.parkerpen.com/collections/classic/ingenuity/parker-ingenuity-fountain-pen-core-gift-box/SAP_2182013.html) and [Mitsubishi JETSTREAM Prime](https://www.unibrands.co/products/uniball%E2%84%A2-jetstream-3-1-ballpoint-pen?_pos=1&_fid=f80246ec6&_ss=c&variant=43013371822286)
