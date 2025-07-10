@@ -51,7 +51,6 @@ Here are the tools I use for research.
 - Keyboard: [HHKB Professional HYBRID Type-S](https://www.hhkeyboard.com/uk/products/hybrid-type-s) 
   - HHKB stands for `Happy Hacking Keyboard`
   - I use it for its unique layout and the almost musical feel of its keystrokes
-  - Typing on it is genuinely a pleasure
 
 
 ## Others

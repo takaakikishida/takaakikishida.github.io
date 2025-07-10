@@ -8,16 +8,16 @@ website:
   favicon: /image/icon/favicon.ico
   search: false
   navbar:
-    background: "#536878"
-    right:
+    background: "white"
+    left:
       - href: cv/index.qmd
-        text: "CV"
+        text: "cv"
       - href: research/index.qmd
-        text: "Research"
+        text: "research"
       - href: note/index.qmd
-        text: "Note"
+        text: "note"
       - href: fieldworkgallery/index.qmd
-        text: "Fieldwork Gallery"
+        text: "fieldwork gallery"
 
 format:
   html:

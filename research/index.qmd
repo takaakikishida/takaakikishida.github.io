@@ -59,7 +59,7 @@ header-includes: |
   &emsp; <span class="co-author">with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A. </span>
 
 
-## Other Publications (Collaborative / Interdisciplinary Work)
+## Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)
 
 <!-- https://stackoverflow.com/questions/77771258/can-quarto-render-a-descending-ordered-markdown-list-into-revealjs -->
 

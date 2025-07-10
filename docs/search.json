@@ -86,16 +86,16 @@
   {
     "objectID": "cv/index.html#note",
     "href": "cv/index.html#note",
-    "title": "Curriculum Vitae",
+    "title": "CV",
     "section": "Note",
     "text": "Note\n\nBefore moving to Switzerland in 2022, I completed my studies and worked in the private sector in Japan for about two years.\nA full PDF version of my CV is available upon request."
   },
   {
     "objectID": "cv/index.html#short-cv-since-2022",
     "href": "cv/index.html#short-cv-since-2022",
-    "title": "Curriculum Vitae",
+    "title": "CV",
     "section": "Short CV (since 2022)",
-    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, Institute of Economics and Econometrics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, HEC Lausanne, University of Lausanne\n\n\n\n\n\nTA\n\n\n\n2025\n\n\nEnvironmental Economics and Climate Change (Master’s), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and a replication project\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne\n\n\n\n\n\nReferee Service\n\n\n\n2025\n\n\nScientific Reports\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
+    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, Institute of Economics and Econometrics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, HEC Lausanne, University of Lausanne\n\n\n\n\n\nTA\n\n\n\n2025\n\n\nEnvironmental Economics and Climate Change (Master’s), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and an empirical project\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne\n\n\n\n\n\nReferee Service\n\n\n\n2025\n\n\nScientific Reports\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
   },
   {
     "objectID": "note/flexible_fixest/index.html#split-estimation-by-group-specifying-split-argument",
@@ -333,7 +333,7 @@
     "href": "note/tool/index.html#hardware",
     "title": "Tools",
     "section": "Hardware",
-    "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S\n\nHHKB stands for Happy Hacking Keyboard\nI use it for its unique layout and the almost musical feel of its keystrokes\nTyping on it is genuinely a pleasure"
+    "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S\n\nHHKB stands for Happy Hacking Keyboard\nI use it for its unique layout and the almost musical feel of its keystrokes"
   },
   {
     "objectID": "note/tool/index.html#others",
@@ -341,5 +341,12 @@
     "title": "Tools",
     "section": "Others",
     "text": "Others\n\nPen: Parker Ingenuity 5th and Mitsubishi JETSTREAM Prime"
+  },
+  {
+    "objectID": "research/index.html#other-publications-pre-phd-collaborative-interdisciplinary-work",
+    "href": "research/index.html#other-publications-pre-phd-collaborative-interdisciplinary-work",
+    "title": "Research",
+    "section": "Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)",
+    "text": "Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
   }
 ]

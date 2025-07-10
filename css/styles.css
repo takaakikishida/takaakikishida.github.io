@@ -1,5 +1,14 @@
 
 /* ================================
+   Global font size adjustment (slightly smaller)
+================================== */
+
+body {
+  font-size: 0.95em; /* Slightly smaller than default */
+}
+
+
+/* ================================
    Typography: Headings & Text
 ================================== */
 
@@ -95,7 +104,7 @@ a:hover {
   font-weight: bold;
   background-color: transparent;
   text-decoration: none;
-  color: white;
+  /* color: white; */
 }
 
 /* Hover effect on navbar links */
@@ -103,7 +112,19 @@ a:hover {
   font-weight: bold;
   background-color: transparent;
   text-decoration: none;
-  color: white;
+  /* color: white; */
+}
+
+/* Remove underline from the site title link (normal state) */
+.navbar-brand {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Remove underline from the site title link on hover */
+.navbar-brand:hover {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 

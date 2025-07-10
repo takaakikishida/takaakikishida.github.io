@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "CV"
 toc: false
 
 header-includes: |
@@ -67,7 +67,7 @@ header-includes: |
   <div class="cv-year">2025</div>
   <div class="cv-detail">Environmental Economics and Climate Change (Master's), University of Geneva 
   <br>-- Served as Solo TA
-  <br>-- Led tutorials on causal inference, R programming, and a replication project</div>
+  <br>-- Led tutorials on causal inference, R programming, and an empirical project</div>
 </div>
 :::
 
