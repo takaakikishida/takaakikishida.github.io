@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Takaaki Kishida",
     "section": "",
-    "text": "Takaaki Kishida\n  \n\n\nI am a PhD student in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental and development economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\nMy name in Japanese: 岸田隆明\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works and Activities\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: My Tools\nNote 📖: Project Management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (May 2025) and am currently training for my next one in 2026."
+    "text": "Takaaki Kishida\n  \n\n\nI am a PhD candidate in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, development, and spatial economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\n岸田隆明 (ja)\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works and Activities\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: My Tools\nNote 📖: Project Management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (May 2025) and Lausanne Half (October 2025)."
   },
   {
     "objectID": "research/index.html#working-papers",
     "href": "research/index.html#working-papers",
     "title": "Research",
     "section": "Working Papers",
-    "text": "Working Papers\n\nRevisiting Birth Order Effects on Child Health: Evidence from Bangladesh    with Matsuura-Kannari, M. and Islam, A.H.M.S."
+    "text": "Working Papers\n\nRent Control and Tenant Lock-In under Energy and Climate Shocks   with Houde, S. and Mayr, H"
   },
   {
     "objectID": "research/index.html#journal-publications",
@@ -25,7 +25,7 @@
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\nRent Control Under the Heat: Evidence from the Rental Housing Market in Switzerland   with Houde, S. and Mayr, H\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries\nSunk costs affect cancellation behaviour during mountain hiking: New insight from mobile phone GPS data analyses   with Kubo, T., Kang, J., Uryu, S., Mieno, T., Tsuge, T., Arnberger, A."
+    "text": "Work in Progress\n\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries"
   },
   {
     "objectID": "research/index.html#other-journal-publications-in-interdisciplinary-fields",
@@ -95,7 +95,7 @@
     "href": "cv/index.html#short-cv-since-2022",
     "title": "CV",
     "section": "Short CV (since 2022)",
-    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, Institute of Economics and Econometrics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, HEC Lausanne, University of Lausanne\n\n\n\n\n\nTA\n\n\n\n2025\n\n\nEnvironmental Economics and Climate Change (Master’s), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and an empirical project\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne\n\n\n\n\n\nReferee Service\n\n\n\n2025\n\n\nScientific Reports\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
+    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, University of Lausanne\n\n\n\n\n\nPresentations\n\n\n\n2026\n\n\nWorld Congress of Environmental and Resource Economists (WCERE) (Portugal) IEE Brown Bag Seminar (U Geneva)\n\n\n\n\n2025\n\n\nIEE Brown Bag Seminar (U Geneva)\n\n\n\n\n\nTA\n\n\n\n2025\n\n\nEnvironmental Economics and Climate Change (MSc), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and an empirical project – Supervised students’ replication and extension projects\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne\n\n\n\n\n\nReferee Service\n\n\n\n2025\n\n\nScientific Reports\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
   },
   {
     "objectID": "note/flexible_fixest/index.html#split-estimation-by-group-specifying-split-argument",
@@ -347,6 +347,34 @@
     "href": "research/index.html#other-publications-pre-phd-collaborative-interdisciplinary-work",
     "title": "Research",
     "section": "Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)",
-    "text": "Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+    "text": "Other Publications (Pre-PhD / Collaborative / Interdisciplinary Work)\n\n\n\nUnequal Starts: Intrahousehold Inequality in Child Nutrition in Bangladesh   Kishida, T. , Matsuura, M., Islam, A.H.M.S.   Asian Development Review, 2026 , XXX\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+  },
+  {
+    "objectID": "research/index.html#other-journal-publications-pre-phd-collaborative-interdisciplinary-work",
+    "href": "research/index.html#other-journal-publications-pre-phd-collaborative-interdisciplinary-work",
+    "title": "Research",
+    "section": "Other Journal Publications (Pre-PhD / Collaborative / Interdisciplinary Work)",
+    "text": "Other Journal Publications (Pre-PhD / Collaborative / Interdisciplinary Work)\n\n\n\nUnequal Starts: Intrahousehold Inequality in Child Nutrition in Bangladesh   Kishida, T. , Matsuura, M., Islam, A.H.M.S.   Asian Development Review, 2026 , XXX\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+  },
+  {
+    "objectID": "research/index.html#other-journal-publications-pre-phdcollaborativeinterdisciplinary-work",
+    "href": "research/index.html#other-journal-publications-pre-phdcollaborativeinterdisciplinary-work",
+    "title": "Research",
+    "section": "Other Journal Publications (Pre-PhD/Collaborative/Interdisciplinary Work)",
+    "text": "Other Journal Publications (Pre-PhD/Collaborative/Interdisciplinary Work)\n\nFive papers published in development and public health journals (as a co-author)."
+  },
+  {
+    "objectID": "research/index_ignored.html",
+    "href": "research/index_ignored.html",
+    "title": "Takaaki Kishida",
+    "section": "",
+    "text": "Five papers published in development and public health journals (as a co-author).\n\n\nUnequal Starts: Intrahousehold Child Nutrition Inequality in Bangladesh   Kishida, T. , Matsuura, M., Islam, A.H.M.S.   Asian Development Review, 2026 , XXX\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
+  },
+  {
+    "objectID": "research/index_ignored.html#other-journal-publications-pre-phdcollaborativeinterdisciplinary-work",
+    "href": "research/index_ignored.html#other-journal-publications-pre-phdcollaborativeinterdisciplinary-work",
+    "title": "Takaaki Kishida",
+    "section": "",
+    "text": "Five papers published in development and public health journals (as a co-author).\n\n\nUnequal Starts: Intrahousehold Child Nutrition Inequality in Bangladesh   Kishida, T. , Matsuura, M., Islam, A.H.M.S.   Asian Development Review, 2026 , XXX\n\n\n\nPrecipitation, temperature, and child undernutrition: evidence from the Mali demographic and health surveys 2012–2013 and 2018   Kamiya, Y.,  Kishida, T. , Tanou, M.   Journal of Health, Population and Nutrition, 2025 , 44, 68\n\n\n\nEffect of Drinking Water and Sanitation on Child Undernutrition and Diarrhea in Lao PDR   Kamiya, Y.,  Kishida, T.   Asia Pacific Journal of Public Health, 2023 , 35(8):494-501\n\n\n\nThe Effects of Precipitation and Temperature on Birth Weight: A Cross-Sectional Study from the Republic of Benin   Tanou, M.,  Kishida, T. , Kamiya, Y.   Global Journal of Health Science, 2022 , 14, 7, 19-31\n\n\n\nThe effects of geographical accessibility to health facilities on antenatal care and delivery services utilization in Benin: A cross-sectional study   Tanou, M.,  Kishida, T. , Kamiya, Y.   BMC Reproductive Health, 2021, 18, 205"
   }
 ]

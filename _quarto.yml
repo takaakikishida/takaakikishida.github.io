@@ -5,6 +5,7 @@ project:
 website:
   title: "Takaaki Kishida"
   description: "PhD Candidate in Economics"
+  site-url: https://takaakikishida.github.io/
   favicon: /image/icon/favicon.ico
   search: false
   navbar:
