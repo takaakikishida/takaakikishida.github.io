@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Takaaki Kishida",
     "section": "",
-    "text": "Takaaki Kishida\n  \n\n\nI am a PhD candidate in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, development, and spatial economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\n岸田隆明 (ja)\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works and Activities\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: My Tools\nNote 📖: Project Management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (May 2025) and Lausanne Half (October 2025)."
+    "text": "Takaaki Kishida\n  \n\n\nI am a PhD candidate in Economics at the University of Geneva, Switzerland.\nMy research interests lie at the intersection of environmental, urban, and development economics. In pursuit of generating causally identified and policy-relevant evidence, I employ a variety of data sources, including large surveys, (satellite) remote sensing, and other spatial/GIS data.\nIn addition, I enjoy working with R and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.\n\n Email: Takaaki.Kishida@unige.ch\nCV | Google Scholar | ORCID | GitHub | GitHub Gist | LinkedIn\n岸田隆明 (ja)\n\n\n\n\n\n\nRecent News\n\nPublication: Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia (2024, Journal of Development Studies)  \n\n\n\n\n\nOther Works and Activities\n\nPackage 📦: {easysum} Easy-to-use (wrapper) functions for summary statistics in R\nNote 📖: My Tools\nNote 📖: Project Management\nNote 📖: Replication and translation exercises\nShiny App 🗺️: Interactive map of my favorite places in Switzerland\nMarathon 🏃: I have completed the Geneva Marathon (2025, 26) and Lausanne Half (2025)."
   },
   {
     "objectID": "research/index.html#working-papers",
@@ -18,14 +18,14 @@
     "href": "research/index.html#journal-publications",
     "title": "Research",
     "section": "Journal Publications",
-    "text": "Journal Publications\n\n\n\n\n\n\n\n\n\nDeforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia   Kishida, T. , Ito, T., Yamamoto, Y.   Journal of Development Studies, 2024 , 61(3), 424–441.   +Abstract | +BibTex | PDF | Journal Website"
+    "text": "Journal Publications\n\n\n\n\n\n\n\n\n\nDeforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia   Kishida, T., Ito, T., Yamamoto, Y.   Journal of Development Studies, 2025, 61(3), 424–441.   +Abstract | +BibTex | PDF | Journal Website"
   },
   {
     "objectID": "research/index.html#work-in-progress",
     "href": "research/index.html#work-in-progress",
     "title": "Research",
     "section": "Work in Progress",
-    "text": "Work in Progress\n\nAir Pollution and Productivity: Evidence from High-Resolution Spatiotemporal Data and Nationally Representative Surveys in 50 Countries"
+    "text": "Work in Progress\n\nSpatial Sorting and Health in Polluting Industry\nUrban Development and Climate Risks in Asia\nAir Pollution and Productivity\nSample Selection in Data Production"
   },
   {
     "objectID": "research/index.html#other-journal-publications-in-interdisciplinary-fields",
@@ -95,7 +95,7 @@
     "href": "cv/index.html#short-cv-since-2022",
     "title": "CV",
     "section": "Short CV (since 2022)",
-    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, University of Lausanne\n\n\n\n\n\nPresentations\n\n\n\n2026\n\n\nWorld Congress of Environmental and Resource Economists (WCERE) (Portugal) IEE Brown Bag Seminar (U Geneva)\n\n\n\n\n2025\n\n\nIEE Brown Bag Seminar (U Geneva)\n\n\n\n\n\nTA\n\n\n\n2025\n\n\nEnvironmental Economics and Climate Change (MSc), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and an empirical project – Supervised students’ replication and extension projects\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne\n\n\n\n\n\nReferee Service\n\n\n\n2025\n\n\nScientific Reports\n\n\n\n\n\nOther Relevant Experience\n\n\n\n2022–2024\n\n\nGraduate Mentee, Mentorship Program, HEC Lausanne, Switzerland"
+    "text": "Short CV (since 2022)\n\nEducation\n\n\n\n2024–present\n\n\nPhD in Economics, University of Geneva\n\n\n\n\n2022–2024\n\n\nMSc in Economics, University of Lausanne\n\n\n\n\n\nPresentations\n\n\n\n2026\n\n\n7th World Congress of Environmental and Resource Economists (WCERE) (Nova SBE, Portugal)\n\n\n\n\n2025–26\n\n\nIEE Brown Bag Seminar (U Geneva) * 2\n\n\n\n\n\nTA\n\n\n\n2025–26\n\n\nEnvironmental Economics and Climate Change (MSc), University of Geneva – Served as Solo TA – Led tutorials on causal inference, R programming, and an empirical project – Supervised students’ replication and extension projects\n\n\n\n\n\nRA\n\n\n\n2025–present\n\n\nFor Matthieu Stigler, University of Geneva\n\n\n\n\n2023–2024\n\n\nFor Sébastien Houde, University of Lausanne"
   },
   {
     "objectID": "note/flexible_fixest/index.html#split-estimation-by-group-specifying-split-argument",
@@ -172,7 +172,7 @@
     "href": "note/tool/index.html#productivity",
     "title": "Tools",
     "section": "Productivity",
-    "text": "Productivity\n\nProject management: GitHub Projects (Trello and Notion could be alternatives)\n\nI will write a post entirely about GitHub projects\n\nTask management: GitHub Projects (for project-relevant tasks), TickTick (for personal tasks)\nNote takng: Notion and Obsidian\nCommunication: Discord and Slack"
+    "text": "Productivity\n\nProject management: GitHub Projects\n\nI will write a post entirely about GitHub Projects\n\nTask management: GitHub Projects + Issues (for both project-relevant and personal tasks)\nTerminal: Ghostty\nNote taking: Obsidian\nCommunication: Discord and Slack"
   },
   {
     "objectID": "note/tool/index.html#setup",
@@ -207,7 +207,7 @@
     "href": "note/tool/index.html#text-editing",
     "title": "Tools",
     "section": "Text Editing",
-    "text": "Text Editing\n\nLaTex: Overleaf\nSlide: Beamer (for research presentations) and Quarto (for other presentations)\nReference management: BibDesk"
+    "text": "Text Editing\n\nLaTex: VS Code\nSlides: Beamer (for research presentations) and Quarto (for other presentations)\nReference management: BibDesk"
   },
   {
     "objectID": "note/tool/index.html",
@@ -333,14 +333,14 @@
     "href": "note/tool/index.html#hardware",
     "title": "Tools",
     "section": "Hardware",
-    "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S\n\nHHKB stands for Happy Hacking Keyboard\nI use it for its unique layout and the almost musical feel of its keystrokes"
+    "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S"
   },
   {
     "objectID": "note/tool/index.html#others",
     "href": "note/tool/index.html#others",
     "title": "Tools",
     "section": "Others",
-    "text": "Others\n\nPen: Parker Ingenuity 5th and Mitsubishi JETSTREAM Prime"
+    "text": "Others\n\nPen: Parker Ingenuity 5th and Mitsubishi JETSTREAM Prime\nChair: Herman Miller Embody"
   },
   {
     "objectID": "research/index.html#other-publications-pre-phd-collaborative-interdisciplinary-work",

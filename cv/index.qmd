@@ -37,11 +37,12 @@ header-includes: |
 <!-- Feel free to text me if you don't have access to the full text or PDF. -->
 \
 
-## Note
+<!-- ## Note -->
 
 - Before moving to Switzerland in 2022, I completed my studies and worked in the private sector in Japan for about two years.
 - A full PDF version of my CV is available upon request.
 
+\
 
 
 ## Short CV (since 2022)
@@ -51,11 +52,25 @@ header-includes: |
 ::: {.cv-container}
 <div class="cv-entry">
   <div class="cv-year">2024--present</div>
-  <div class="cv-detail">PhD in Economics, Institute of Economics and Econometrics, University of Geneva</div>
+  <div class="cv-detail">PhD in Economics, University of Geneva</div>
 </div>
 <div class="cv-entry">
   <div class="cv-year">2022--2024</div>
-  <div class="cv-detail">MSc in Economics, HEC Lausanne, University of Lausanne</div>
+  <div class="cv-detail">MSc in Economics, University of Lausanne</div>
+</div>
+:::
+
+
+### Presentations
+
+::: {.cv-container}
+<div class="cv-entry">
+  <div class="cv-year">2026</div>
+  <div class="cv-detail">7th World Congress of Environmental and Resource Economists (WCERE) (Nova SBE, Portugal)</div>
+</div>
+<div class="cv-entry">
+  <div class="cv-year">2025--26</div>
+  <div class="cv-detail">IEE Brown Bag Seminar (U Geneva) * 2</div>
 </div>
 :::
 
@@ -64,10 +79,11 @@ header-includes: |
 
 ::: {.cv-container}
 <div class="cv-entry">
-  <div class="cv-year">2025</div>
-  <div class="cv-detail">Environmental Economics and Climate Change (Master's), University of Geneva 
+  <div class="cv-year">2025--26</div>
+  <div class="cv-detail">Environmental Economics and Climate Change (MSc), University of Geneva 
   <br>-- Served as Solo TA
-  <br>-- Led tutorials on causal inference, R programming, and an empirical project</div>
+  <br>-- Led tutorials on causal inference, R programming, and an empirical project
+  <br>-- Supervised students' replication and extension projects</div>
 </div>
 :::
 
@@ -86,20 +102,20 @@ header-includes: |
 :::
 
 
-### Referee Service
+<!-- ### Referee Service -->
 
-::: {.cv-container}
-<div class="cv-entry">
-  <div class="cv-year">2025</div>
-  <div class="cv-detail">Scientific Reports</div>
-</div>
-:::
+<!-- ::: {.cv-container} -->
+<!-- <div class="cv-entry"> -->
+<!--   <div class="cv-year">2025</div> -->
+<!--   <div class="cv-detail">Scientific Reports</div> -->
+<!-- </div> -->
+<!-- ::: -->
 
-### Other Relevant Experience
+<!-- ### Other Relevant Experience -->
 
-::: {.cv-container}
-<div class="cv-entry">
-  <div class="cv-year">2022--2024</div>
-  <div class="cv-detail">Graduate Mentee, Mentorship Program, HEC Lausanne, Switzerland</div>
-</div>
-:::
+<!-- ::: {.cv-container} -->
+<!-- <div class="cv-entry"> -->
+<!--   <div class="cv-year">2022--2024</div> -->
+<!--   <div class="cv-detail">Graduate Mentee, Mentorship Program, HEC Lausanne, Switzerland</div> -->
+<!-- </div> -->
+<!-- ::: -->

@@ -24,17 +24,18 @@ Here are the tools I use for research.
 
 ## Productivity
 
-- Project management: [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) (Trello and Notion could be alternatives)
-  - I will write a post entirely about GitHub projects
-- Task management: GitHub Projects (for project-relevant tasks), [TickTick](https://ticktick.com/?language=en_US) (for personal tasks)
-- Note takng: [Notion](https://www.notion.com/) and [Obsidian](https://obsidian.md/)
+- Project management: [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
+  - I will write a post entirely about GitHub Projects
+- Task management: GitHub Projects + Issues (for both project-relevant and personal tasks)
+- Terminal: [Ghostty](https://ghostty.org/)
+- Note taking: [Obsidian](https://obsidian.md/)
 - Communication: [Discord](https://discord.com/) and [Slack](https://slack.com/)
 
 
 ## Text Editing
 
-- LaTex: Overleaf
-- Slide: Beamer (for research presentations) and [Quarto](https://quarto.org/) (for other presentations)
+- LaTex: VS Code
+- Slides: Beamer (for research presentations) and [Quarto](https://quarto.org/) (for other presentations)
 - Reference management: [BibDesk](https://bibdesk.sourceforge.io/)
 
 
@@ -49,10 +50,9 @@ Here are the tools I use for research.
 
 - Laptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)
 - Keyboard: [HHKB Professional HYBRID Type-S](https://www.hhkeyboard.com/uk/products/hybrid-type-s) 
-  - HHKB stands for `Happy Hacking Keyboard`
-  - I use it for its unique layout and the almost musical feel of its keystrokes
 
 
 ## Others
 
 - Pen: [Parker Ingenuity 5th](https://www.parkerpen.com/collections/classic/ingenuity/parker-ingenuity-fountain-pen-core-gift-box/SAP_2182013.html) and [Mitsubishi JETSTREAM Prime](https://www.unibrands.co/products/uniball%E2%84%A2-jetstream-3-1-ballpoint-pen?_pos=1&_fid=f80246ec6&_ss=c&variant=43013371822286)
+- Chair: Herman Miller Embody
