@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://takaakikishida.github.io/cv/index.html</loc>
-    <lastmod>2026-08-01T14:36:36.531Z</lastmod>
+    <loc>https://takaakikishida.github.io/fieldworkgallery/index.html</loc>
+    <lastmod>2026-08-01T14:25:27.846Z</lastmod>
+  </url>
+  <url>
+    <loc>https://takaakikishida.github.io/notes/tool/index.html</loc>
+    <lastmod>2026-08-01T14:25:28.112Z</lastmod>
+  </url>
+  <url>
+    <loc>https://takaakikishida.github.io/notes/project_management/index.html</loc>
+    <lastmod>2026-08-01T14:25:28.248Z</lastmod>
   </url>
   <url>
     <loc>https://takaakikishida.github.io/index.html</loc>
@@ -13,7 +21,15 @@
     <lastmod>2026-08-01T14:25:27.713Z</lastmod>
   </url>
   <url>
+    <loc>https://takaakikishida.github.io/notes/flexible_fixest/index.html</loc>
+    <lastmod>2026-08-01T14:25:28.382Z</lastmod>
+  </url>
+  <url>
     <loc>https://takaakikishida.github.io/notes/index.html</loc>
     <lastmod>2026-08-01T14:25:27.976Z</lastmod>
+  </url>
+  <url>
+    <loc>https://takaakikishida.github.io/cv/index.html</loc>
+    <lastmod>2026-08-01T14:36:36.531Z</lastmod>
   </url>
 </urlset>

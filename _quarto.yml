@@ -9,6 +9,9 @@ project:
     - image/icon/apple-touch-icon.png
     - research/file/**
 
+execute:
+  freeze: true
+
 website:
   title: "Takaaki Kishida"
   description: "PhD Candidate in Economics"
