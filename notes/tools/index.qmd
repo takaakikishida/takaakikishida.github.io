@@ -1,5 +1,7 @@
 ---
 title: "Tools"
+aliases:
+  - /notes/tool/index.html
 # date: "November 30, 2024"
 # lastmod: "November 30, 2024"
 # toc: true
@@ -9,7 +11,11 @@ title: "Tools"
 body-classes: page-title-centered
 ---
 
-Here are the tools I use for research. 
+::: {.page-intro}
+
+Here are the tools I use for research.
+
+:::
 
 ## Productivity
 

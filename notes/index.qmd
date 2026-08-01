@@ -11,6 +11,6 @@ body-classes: "page-title-centered section-spacing-wide"
 
 ## Management and Coding
 
-- [Tools](tool/)
+- [Tools](tools/index.qmd)
 - [Project Management](project_management/) (continuously updated)
 - GitHub Projects

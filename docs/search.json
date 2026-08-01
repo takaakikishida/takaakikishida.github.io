@@ -1,115 +1,66 @@
 [
   {
-    "objectID": "notes/tool/index.html",
-    "href": "notes/tool/index.html",
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Notes",
+    "section": "",
+    "text": "Flexible Regression Outputs with {fixest}"
+  },
+  {
+    "objectID": "notes/index.html#data-analysis",
+    "href": "notes/index.html#data-analysis",
+    "title": "Notes",
+    "section": "",
+    "text": "Flexible Regression Outputs with {fixest}"
+  },
+  {
+    "objectID": "notes/index.html#management-and-coding",
+    "href": "notes/index.html#management-and-coding",
+    "title": "Notes",
+    "section": "Management and Coding",
+    "text": "Management and Coding\n\nTools\nProject Management (continuously updated)\nGitHub Projects"
+  },
+  {
+    "objectID": "notes/tools/index.html",
+    "href": "notes/tools/index.html",
     "title": "Tools",
     "section": "",
     "text": "Here are the tools I use for research."
   },
   {
-    "objectID": "notes/tool/index.html#productivity",
-    "href": "notes/tool/index.html#productivity",
+    "objectID": "notes/tools/index.html#productivity",
+    "href": "notes/tools/index.html#productivity",
     "title": "Tools",
     "section": "Productivity",
     "text": "Productivity\n\nProject management: GitHub Projects\n\nI will write a post entirely about GitHub Projects\n\nTask management: GitHub Projects + Issues (for both project-relevant and personal tasks)\nTerminal: Ghostty\nNote taking: Obsidian\nCommunication: Discord and Slack"
   },
   {
-    "objectID": "notes/tool/index.html#text-editing",
-    "href": "notes/tool/index.html#text-editing",
+    "objectID": "notes/tools/index.html#text-editing",
+    "href": "notes/tools/index.html#text-editing",
     "title": "Tools",
     "section": "Text Editing",
     "text": "Text Editing\n\nLaTex: VS Code\nSlides: Beamer (for research presentations) and Quarto (for other presentations)\nReference management: BibDesk"
   },
   {
-    "objectID": "notes/tool/index.html#pdf-viewers-and-editors",
-    "href": "notes/tool/index.html#pdf-viewers-and-editors",
+    "objectID": "notes/tools/index.html#pdf-viewers-and-editors",
+    "href": "notes/tools/index.html#pdf-viewers-and-editors",
     "title": "Tools",
     "section": "PDF Viewers and Editors",
     "text": "PDF Viewers and Editors\n\nPDF Expert\nSkim (for presentations with Mac)\nGoodNotes (for presentations with iPad)"
   },
   {
-    "objectID": "notes/tool/index.html#hardware",
-    "href": "notes/tool/index.html#hardware",
+    "objectID": "notes/tools/index.html#hardware",
+    "href": "notes/tools/index.html#hardware",
     "title": "Tools",
     "section": "Hardware",
     "text": "Hardware\n\nLaptop: 16-inch MacBook Pro (M3 Pro, 36GB RAM, 2023)\nKeyboard: HHKB Professional HYBRID Type-S"
   },
   {
-    "objectID": "notes/tool/index.html#others",
-    "href": "notes/tool/index.html#others",
+    "objectID": "notes/tools/index.html#others",
+    "href": "notes/tools/index.html#others",
     "title": "Tools",
     "section": "Others",
     "text": "Others\n\nPen: Parker Ingenuity 5th and Mitsubishi JETSTREAM Prime\nChair: Herman Miller Embody"
-  },
-  {
-    "objectID": "notes/project_management/index.html",
-    "href": "notes/project_management/index.html",
-    "title": "Project Management",
-    "section": "",
-    "text": "Continuously updated."
-  },
-  {
-    "objectID": "notes/project_management/index.html#software-and-tools",
-    "href": "notes/project_management/index.html#software-and-tools",
-    "title": "Project Management",
-    "section": "1 Software and Tools",
-    "text": "1 Software and Tools\n\nProject management\n\nGitHub (or GitLab) for version controls and effective documentations/management: README, Issues, branches/pull-request, Wiki, and more. Everyone should use them.\nGitHub Projects for task management and planning.\nNotion or Trello for documentation. Also for planning and task management (when GitHub isn’t needed).\n\nCommunication\n\nAlways talk in threads for each issue/topic, in the right channel.\nDiscord: Free\nSlack: Better UI (imo) but only last 90-days of messages accessible (so use Discord)\nMeeting notes\n\nAvoid Word/GoogleDocs for quick access (requires opening each file to refer to it and doesn’t easily support linking between items).\nNotion, GitHub, etc., are better alternatives.\n\n\nOthers\n\nAI tools for coding and writing: GitHub Copilot, Microsoft Copilot, etc.\nEcon Paper Search: Search econ papers by journals"
-  },
-  {
-    "objectID": "notes/project_management/index.html#general-guideline",
-    "href": "notes/project_management/index.html#general-guideline",
-    "title": "Project Management",
-    "section": "2 General Guideline",
-    "text": "2 General Guideline\n\n2.1 Useful or new\n(especially 1-4 are useful)\n\nMatthew Gentzkow\n\nLab Manual (archived version) see Lab Manual and Appendices in Wiki\n\nLab Administration\nMeeting Notes\nJMSLab Notes\nTemplate\nRequired info for README\n\nGentzkowLabTemplate\n\nBrendan M. Price — Workflow for empirical research\nRicardo Dahis — Template for Empirical Papers\nKarl Broman — initial steps toward reproducible research\n\nEveryone should read “Organize your data and code”\nTurn repetitive code into functions\nMake frequently used functions into a package\n\nemLab — Standard Operating Procedures | repository\nGrant McDermott — Data science for economists\nSilvia Peracchi — A collection of tips for applied research in Economics\nBergmann, Deer, & Langer (2021) Reproducible Data Analytic Workflows for Economics\n\nChapter 2 Project Organization\n\nSmith (2023) Reproducible Epidemiology in R — Workflow\nKok (2018) How to keep your research projects organized: folder structure\nOffice of the AEA Data Editor\n\nPreparing your files for verification\nGuidance\nA template README for social science replication packages\n\nBjarkefur, Cardoso de Andrade, Daniels, & Jones (2021) Development Research in Practice: The DIME Analytics Data Handbook\n\nSeminar video (in English) and slides\n\n\n\n\n2.2 Old information (but still nice to see)\n\nGentzkow & Shapiro (2014) — Code and Data for the Social Sciences: A Practitioner’s Guide\nKnittel & Metaxoglou (2018) “Working with Data: Two Empiricists’ Experience” Journal of Econometric Methods, vol.7, no.1"
-  },
-  {
-    "objectID": "notes/project_management/index.html#folder-structure-example",
-    "href": "notes/project_management/index.html#folder-structure-example",
-    "title": "Project Management",
-    "section": "3 Folder Structure Example",
-    "text": "3 Folder Structure Example\nMy preferred (basic) structure (you can generate a tree with tree.nathanfriend.com )\n.\n└── your_project_name/\n    ├── data/\n    │   ├── processed/\n    │   │   ├── building\n    │   │   ├── temperature\n    │   │   └── main.rds\n    │   └── raw/\n    │       ├── building\n    │       ├── temperature\n    │       └── shapefile\n    ├── document\n    ├── draft/\n    │   └── submission/\n    │       └── 2024_10_PNAS/\n    │           ├── manuscript.tex\n    │           └── manuscript.pdf\n    ├── output/\n    │   ├── figure/\n    │   │   ├── figure1_map.pdf\n    │   │   ├── figure2A_hist.pdf\n    │   │   └── figure2B_binscatter.pdf\n    │   └── table/\n    │       ├── table1_summarystats.tex\n    │       ├── table2_regression_baseline.tex\n    │       ├── tableA1_data_list.tex\n    │       └── tableB1_regression_falsification.tex\n    ├── source/\n    │   ├── analysis/\n    │   │   ├── figure/\n    │   │   │   ├── figure1_map.R\n    │   │   │   └── figure2_hist_binscatter.R\n    │   │   └── table/\n    │   │       ├── table1_summarystats.R\n    │   │       ├── table2_regression_baseline.R\n    │   │       └── tableB1_regression_falsification.R\n    │   ├── data_eda/\n    │   │   ├── housing.html\n    │   │   └── housing.qmd\n    │   └── make_dataset/\n    │       ├── make_variables.R\n    │       ├── merge.R\n    │       └── temperature.R\n    ├── README.md\n    └── your_project_name.Rproj"
-  },
-  {
-    "objectID": "notes/project_management/index.html#naming-conventions",
-    "href": "notes/project_management/index.html#naming-conventions",
-    "title": "Project Management",
-    "section": "4 Naming Conventions",
-    "text": "4 Naming Conventions\n\nRead the first few chapters of Boswell and Foucher (2011) The Art of Readable Code\nUse consistent case (uppercase or lowercase) and names\nAvoid spaces in file/folder names:\n\nGood: make_variables.R, table1_summarystats.tex\nBad: Make New variable.R, Table 1 (new).tex\n\nVariable names\n\nUse prefixes (especially for binary variables) like is_ or has_ to clearly show they hold TRUE / FALSE values.\nAvoid ambiguous names:\n\nGood: is_famele, has_renovated\nBad: female, renovation"
-  },
-  {
-    "objectID": "notes/project_management/index.html#readme",
-    "href": "notes/project_management/index.html#readme",
-    "title": "Project Management",
-    "section": "5 README",
-    "text": "5 README\n\nIt is better to update regularly to document data sources, dataset construction steps, new files, etc.\nFind Economic Articles with Data lists economics papers with replication packages and README files. Reviewing both good and poor examples can be helpful."
-  },
-  {
-    "objectID": "notes/project_management/index.html#r",
-    "href": "notes/project_management/index.html#r",
-    "title": "Project Management",
-    "section": "6 R",
-    "text": "6 R\n\nAlways use:\n\n.Rproj\nhere::here() → means stop using setwd()\n\nIdeally use {targets} and {renv} (for dependency management) (I’m still learning)\nAlso use a Markdown-like heading structure:\n\nUse Cmd + Shift + R for the first heading (if you like)\n\nUse Quarto to create meeting notes and share intermediate results\nThe tidyverse team — Tidyverse style guide\nUse {fixest} for regression.\n\nFor Stata users: stata2R — Regression analysis with fixest\n\nRodrigues (2023) Building reproducible analytical pipelines with R"
-  },
-  {
-    "objectID": "notes/project_management/index.html#stata",
-    "href": "notes/project_management/index.html#stata",
-    "title": "Project Management",
-    "section": "7 Stata",
-    "text": "7 Stata\n\nStop using cd. See tweet for why\n\nInstead, use dynamic and absolute file path (more generalizable)\nRefer to World Bank DIME’s Stata Coding Practices"
-  },
-  {
-    "objectID": "notes/project_management/index.html#github",
-    "href": "notes/project_management/index.html#github",
-    "title": "Project Management",
-    "section": "8 Git(Hub)",
-    "text": "8 Git(Hub)\n\nUse .gitignore efficiently (example)"
-  },
-  {
-    "objectID": "notes/project_management/index.html#other-articles-and-materials",
-    "href": "notes/project_management/index.html#other-articles-and-materials",
-    "title": "Project Management",
-    "section": "9 Other Articles and Materials",
-    "text": "9 Other Articles and Materials\n\nProject overview\n\nNature articles\n\nHow to manage your time as a researcher\nWhy I use Notion to organize my PhD research\nDemocratic databases: science on GitHub\nManaging up: how to communicate effectively with your PhD adviser\n\nThe Missing Semester of Your CS Education\nStarting new projects (X thread)\n\nCoding\n\nDaniel M. Sullivan — Best Practices when Writing Code\nCoding for Economists"
   },
   {
     "objectID": "index.html",
@@ -231,25 +182,74 @@
     "text": "10 Exports Table in LaTeX Format"
   },
   {
-    "objectID": "notes/index.html",
-    "href": "notes/index.html",
-    "title": "Notes",
+    "objectID": "notes/project_management/index.html",
+    "href": "notes/project_management/index.html",
+    "title": "Project Management",
     "section": "",
-    "text": "Flexible Regression Outputs with {fixest}"
+    "text": "Continuously updated."
   },
   {
-    "objectID": "notes/index.html#data-analysis",
-    "href": "notes/index.html#data-analysis",
-    "title": "Notes",
-    "section": "",
-    "text": "Flexible Regression Outputs with {fixest}"
+    "objectID": "notes/project_management/index.html#software-and-tools",
+    "href": "notes/project_management/index.html#software-and-tools",
+    "title": "Project Management",
+    "section": "1 Software and Tools",
+    "text": "1 Software and Tools\n\nProject management\n\nGitHub (or GitLab) for version controls and effective documentations/management: README, Issues, branches/pull-request, Wiki, and more. Everyone should use them.\nGitHub Projects for task management and planning.\nNotion or Trello for documentation. Also for planning and task management (when GitHub isn’t needed).\n\nCommunication\n\nAlways talk in threads for each issue/topic, in the right channel.\nDiscord: Free\nSlack: Better UI (imo) but only last 90-days of messages accessible (so use Discord)\nMeeting notes\n\nAvoid Word/GoogleDocs for quick access (requires opening each file to refer to it and doesn’t easily support linking between items).\nNotion, GitHub, etc., are better alternatives.\n\n\nOthers\n\nAI tools for coding and writing: GitHub Copilot, Microsoft Copilot, etc.\nEcon Paper Search: Search econ papers by journals"
   },
   {
-    "objectID": "notes/index.html#management-and-coding",
-    "href": "notes/index.html#management-and-coding",
-    "title": "Notes",
-    "section": "Management and Coding",
-    "text": "Management and Coding\n\nTools\nProject Management (continuously updated)\nGitHub Projects"
+    "objectID": "notes/project_management/index.html#general-guideline",
+    "href": "notes/project_management/index.html#general-guideline",
+    "title": "Project Management",
+    "section": "2 General Guideline",
+    "text": "2 General Guideline\n\n2.1 Useful or new\n(especially 1-4 are useful)\n\nMatthew Gentzkow\n\nLab Manual (archived version) see Lab Manual and Appendices in Wiki\n\nLab Administration\nMeeting Notes\nJMSLab Notes\nTemplate\nRequired info for README\n\nGentzkowLabTemplate\n\nBrendan M. Price — Workflow for empirical research\nRicardo Dahis — Template for Empirical Papers\nKarl Broman — initial steps toward reproducible research\n\nEveryone should read “Organize your data and code”\nTurn repetitive code into functions\nMake frequently used functions into a package\n\nemLab — Standard Operating Procedures | repository\nGrant McDermott — Data science for economists\nSilvia Peracchi — A collection of tips for applied research in Economics\nBergmann, Deer, & Langer (2021) Reproducible Data Analytic Workflows for Economics\n\nChapter 2 Project Organization\n\nSmith (2023) Reproducible Epidemiology in R — Workflow\nKok (2018) How to keep your research projects organized: folder structure\nOffice of the AEA Data Editor\n\nPreparing your files for verification\nGuidance\nA template README for social science replication packages\n\nBjarkefur, Cardoso de Andrade, Daniels, & Jones (2021) Development Research in Practice: The DIME Analytics Data Handbook\n\nSeminar video (in English) and slides\n\n\n\n\n2.2 Old information (but still nice to see)\n\nGentzkow & Shapiro (2014) — Code and Data for the Social Sciences: A Practitioner’s Guide\nKnittel & Metaxoglou (2018) “Working with Data: Two Empiricists’ Experience” Journal of Econometric Methods, vol.7, no.1"
+  },
+  {
+    "objectID": "notes/project_management/index.html#folder-structure-example",
+    "href": "notes/project_management/index.html#folder-structure-example",
+    "title": "Project Management",
+    "section": "3 Folder Structure Example",
+    "text": "3 Folder Structure Example\nMy preferred (basic) structure (you can generate a tree with tree.nathanfriend.com )\n.\n└── your_project_name/\n    ├── data/\n    │   ├── processed/\n    │   │   ├── building\n    │   │   ├── temperature\n    │   │   └── main.rds\n    │   └── raw/\n    │       ├── building\n    │       ├── temperature\n    │       └── shapefile\n    ├── document\n    ├── draft/\n    │   └── submission/\n    │       └── 2024_10_PNAS/\n    │           ├── manuscript.tex\n    │           └── manuscript.pdf\n    ├── output/\n    │   ├── figure/\n    │   │   ├── figure1_map.pdf\n    │   │   ├── figure2A_hist.pdf\n    │   │   └── figure2B_binscatter.pdf\n    │   └── table/\n    │       ├── table1_summarystats.tex\n    │       ├── table2_regression_baseline.tex\n    │       ├── tableA1_data_list.tex\n    │       └── tableB1_regression_falsification.tex\n    ├── source/\n    │   ├── analysis/\n    │   │   ├── figure/\n    │   │   │   ├── figure1_map.R\n    │   │   │   └── figure2_hist_binscatter.R\n    │   │   └── table/\n    │   │       ├── table1_summarystats.R\n    │   │       ├── table2_regression_baseline.R\n    │   │       └── tableB1_regression_falsification.R\n    │   ├── data_eda/\n    │   │   ├── housing.html\n    │   │   └── housing.qmd\n    │   └── make_dataset/\n    │       ├── make_variables.R\n    │       ├── merge.R\n    │       └── temperature.R\n    ├── README.md\n    └── your_project_name.Rproj"
+  },
+  {
+    "objectID": "notes/project_management/index.html#naming-conventions",
+    "href": "notes/project_management/index.html#naming-conventions",
+    "title": "Project Management",
+    "section": "4 Naming Conventions",
+    "text": "4 Naming Conventions\n\nRead the first few chapters of Boswell and Foucher (2011) The Art of Readable Code\nUse consistent case (uppercase or lowercase) and names\nAvoid spaces in file/folder names:\n\nGood: make_variables.R, table1_summarystats.tex\nBad: Make New variable.R, Table 1 (new).tex\n\nVariable names\n\nUse prefixes (especially for binary variables) like is_ or has_ to clearly show they hold TRUE / FALSE values.\nAvoid ambiguous names:\n\nGood: is_famele, has_renovated\nBad: female, renovation"
+  },
+  {
+    "objectID": "notes/project_management/index.html#readme",
+    "href": "notes/project_management/index.html#readme",
+    "title": "Project Management",
+    "section": "5 README",
+    "text": "5 README\n\nIt is better to update regularly to document data sources, dataset construction steps, new files, etc.\nFind Economic Articles with Data lists economics papers with replication packages and README files. Reviewing both good and poor examples can be helpful."
+  },
+  {
+    "objectID": "notes/project_management/index.html#r",
+    "href": "notes/project_management/index.html#r",
+    "title": "Project Management",
+    "section": "6 R",
+    "text": "6 R\n\nAlways use:\n\n.Rproj\nhere::here() → means stop using setwd()\n\nIdeally use {targets} and {renv} (for dependency management) (I’m still learning)\nAlso use a Markdown-like heading structure:\n\nUse Cmd + Shift + R for the first heading (if you like)\n\nUse Quarto to create meeting notes and share intermediate results\nThe tidyverse team — Tidyverse style guide\nUse {fixest} for regression.\n\nFor Stata users: stata2R — Regression analysis with fixest\n\nRodrigues (2023) Building reproducible analytical pipelines with R"
+  },
+  {
+    "objectID": "notes/project_management/index.html#stata",
+    "href": "notes/project_management/index.html#stata",
+    "title": "Project Management",
+    "section": "7 Stata",
+    "text": "7 Stata\n\nStop using cd. See tweet for why\n\nInstead, use dynamic and absolute file path (more generalizable)\nRefer to World Bank DIME’s Stata Coding Practices"
+  },
+  {
+    "objectID": "notes/project_management/index.html#github",
+    "href": "notes/project_management/index.html#github",
+    "title": "Project Management",
+    "section": "8 Git(Hub)",
+    "text": "8 Git(Hub)\n\nUse .gitignore efficiently (example)"
+  },
+  {
+    "objectID": "notes/project_management/index.html#other-articles-and-materials",
+    "href": "notes/project_management/index.html#other-articles-and-materials",
+    "title": "Project Management",
+    "section": "9 Other Articles and Materials",
+    "text": "9 Other Articles and Materials\n\nProject overview\n\nNature articles\n\nHow to manage your time as a researcher\nWhy I use Notion to organize my PhD research\nDemocratic databases: science on GitHub\nManaging up: how to communicate effectively with your PhD adviser\n\nThe Missing Semester of Your CS Education\nStarting new projects (X thread)\n\nCoding\n\nDaniel M. Sullivan — Best Practices when Writing Code\nCoding for Economists"
   },
   {
     "objectID": "cv/index.html",

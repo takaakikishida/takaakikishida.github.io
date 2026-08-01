@@ -40,7 +40,7 @@ Email: Takaaki.Kishida@unige.ch
 
 ### Other Works and Activities
 - **Package** 📦: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
-- **Note** 📖: My [Tools](notes/tool/)
+- **Note** 📖: My [Tools](notes/tools/index.qmd)
 - **Note** 📖: [Project Management](notes/project_management/)
 - **Note** 📖: Replication and translation exercises
 - **Shiny App** 🗺️: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland
