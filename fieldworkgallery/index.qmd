@@ -1,0 +1,24 @@
+---
+title: "Fieldwork Gallery"
+toc: false
+body-classes: "page-title-centered fieldwork-gallery-page"
+lightbox: true
+---
+
+\
+
+::: {.fieldwork-gallery}
+
+![](images/rice-harvest.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="Rice harvesting during fieldwork"}
+
+![](images/rice-fields.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="Rice fields and surrounding landscape"}
+
+![](images/pineapple-market.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="Pineapples at a wholesale market"}
+
+![](images/school-visit.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="School visit during fieldwork"}
+
+![](images/shared-meal.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="A shared meal during fieldwork"}
+
+![](images/food-sampling.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="Food sampling during fieldwork"}
+
+:::

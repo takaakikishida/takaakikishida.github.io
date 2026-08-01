@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - js/**
+    - image/icon/favicon.ico
+    - image/icon/favicon-16x16.png
+    - image/icon/favicon-32x32.png
+    - image/icon/apple-touch-icon.png
+    - research/file/**
 
 website:
   title: "Takaaki Kishida"
@@ -15,16 +22,21 @@ website:
         text: "cv"
       - href: research/index.qmd
         text: "research"
-      - href: note/index.qmd
-        text: "note"
+      - href: notes/index.qmd
+        text: "notes"
       - href: fieldworkgallery/index.qmd
         text: "fieldwork gallery"
 
 format:
   html:
     clean-urls: true
-    theme: cosmo
+    theme:
+      - cosmo
+      - css/theme.scss
     css: css/styles.css
+    include-in-header: includes/favicon.html
     toc: false
+
+lang: en
 
 # editor: visual

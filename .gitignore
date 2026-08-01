@@ -5,5 +5,5 @@
 .DS_Store
 /.quarto/
 
-research/index_ignored.qmd
 **/*.quarto_ipynb
+.positai

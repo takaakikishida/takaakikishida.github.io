@@ -4,7 +4,7 @@
 ================================== */
 
 body {
-  font-size: 0.95em; /* Slightly smaller than default */
+  font-size: 0.8875em;
 }
 
 
@@ -17,13 +17,19 @@ h1 {
 }
 
 h2 {
-  font-size: 1.45em; /* default ~2em */
-  margin-top: 50px;
+  font-size: 1.25em;
+  margin-top: 45px;
 }
 
 h3 {
   font-size: 1.15em; /* default ~1.75em */
-  margin-top: 20px;
+  margin-top: 35px;
+}
+
+/* Shared page-level styles formerly duplicated in individual QMD headers */
+.page-title-centered h1.title {
+  text-align: center;
+  margin-top: 15px;
 }
 
 .author-self {
@@ -66,6 +72,10 @@ ol > li br {
   vertical-align: middle; /* Aligns vertically with surrounding text */
 }
 
+.profile-name {
+  font-size: 21px;
+}
+
 /* Creates a horizontal layout with top alignment and spacing between columns */
 .grid {
   display: flex;
@@ -81,6 +91,31 @@ ol > li br {
 
 
 /* ================================
+   CV Layout
+================================== */
+
+.cv-container {
+  width: 100%;
+}
+
+.cv-entry {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 5px;
+}
+
+.cv-year {
+  width: 14%;
+  text-align: left;
+}
+
+.cv-detail {
+  width: 80%;
+  text-align: left;
+}
+
+
+/* ================================
    Links
 ================================== */
 
@@ -92,6 +127,79 @@ a {
 /* Adds underline only when hovering over a link to improve interactivity feedback */
 a:hover {
   text-decoration: underline;
+}
+
+/* Expandable publication details on the Research page */
+.publication-toggle {
+  appearance: none;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #267CB9;
+  font: inherit;
+  cursor: pointer;
+}
+
+.publication-toggle:hover {
+  text-decoration: underline;
+}
+
+.publication-toggle:focus-visible {
+  outline: 2px solid #267CB9;
+  outline-offset: 3px;
+}
+
+.publication-toggle-symbol {
+  display: inline-block;
+  width: 0.8em;
+}
+
+.publication-detail {
+  margin: 0.65rem 0 0.85rem 1.25rem;
+}
+
+.publication-abstract {
+  color: #585858;
+  line-height: 1.5;
+}
+
+.publication-bibtex pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+  border: 1px solid #dfe3e6;
+  border-radius: 0.35rem;
+  background: #f7f8f9;
+  font-size: 0.85em;
+  line-height: 1.45;
+}
+
+
+/* ================================
+   Fieldwork Gallery
+================================== */
+
+.fieldwork-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1em;
+  align-items: start;
+}
+
+.fieldwork-gallery p {
+  margin: 0;
+}
+
+.fieldwork-gallery a {
+  display: block;
+  cursor: zoom-in;
+}
+
+.fieldwork-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
 }
 
 
@@ -134,4 +242,28 @@ a:hover {
 
 .indented {
     margin-left: 20px !important;
+}
+
+/* Stack the homepage columns only on narrow screens. */
+@media (max-width: 767.98px) {
+  .grid {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .grid > .column {
+    width: 100% !important;
+  }
+
+  .grid > .column:first-child {
+    text-align: center;
+  }
+
+  .grid > .column:first-child .profile-pic {
+    display: block;
+    width: auto;
+    max-width: 160px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
