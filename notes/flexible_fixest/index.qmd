@@ -9,8 +9,6 @@ number-sections: true
 body-classes: "page-title-centered section-spacing-wide"
 ---
 
-\
-
 ## Overview
 
 - Still under construction.
@@ -154,4 +152,3 @@ feols(
 
 
 ## Exports Table in LaTeX Format
-

@@ -4,8 +4,6 @@ toc: false
 body-classes: page-title-centered
 ---
 
-\
-
 ## Working Papers
 
 - Rent Control and Tenant Lock-In under Energy and Climate Shocks<br>

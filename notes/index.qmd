@@ -4,8 +4,6 @@ toc: false
 body-classes: "page-title-centered section-spacing-wide"
 ---
 
-\
-
 ## Data Analysis
 
 - [Flexible Regression Outputs with `{fixest}`](flexible_fixest/)

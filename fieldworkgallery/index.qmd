@@ -5,8 +5,6 @@ body-classes: "page-title-centered fieldwork-gallery-page"
 lightbox: true
 ---
 
-\
-
 ::: {.fieldwork-gallery}
 
 ![](images/rice-harvest.jpg){group="fieldwork-gallery" loading="lazy" fig-alt="Rice harvesting during fieldwork"}

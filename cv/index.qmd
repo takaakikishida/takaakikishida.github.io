@@ -5,14 +5,14 @@ body-classes: "page-title-centered section-spacing-wide cv-page"
 ---
 
 <!-- Feel free to text me if you don't have access to the full text or PDF. -->
-\
-
 <!-- ## Note -->
+
+::: {.page-intro}
 
 - Before moving to Switzerland in 2022, I completed my studies and worked in the private sector in Japan for about two years.
 - A full PDF version of my CV is available upon request.
 
-\
+:::
 
 
 ## Short CV (since 2022)

@@ -9,11 +9,7 @@ number-sections: true
 body-classes: "page-title-centered section-spacing-wide"
 ---
 
-\
-
 Continuously updated.
-
-\
 
 ## Software and Tools
 

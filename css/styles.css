@@ -21,6 +21,11 @@ h2 {
   margin-top: 45px;
 }
 
+/* Keep the first level-two heading consistent with all subsequent ones. */
+main.content > section:first-of-type > h2:nth-child(1) {
+  margin-top: 45px;
+}
+
 h3 {
   font-size: 1.15em; /* default ~1.75em */
   margin-top: 35px;
@@ -96,6 +101,10 @@ ol > li br {
 
 .cv-container {
   width: 100%;
+}
+
+.page-intro {
+  margin-top: 45px;
 }
 
 .cv-entry {

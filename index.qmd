@@ -21,7 +21,6 @@ My research interests lie at the intersection of **environmental**, **urban**, a
 
 In addition, I enjoy working with **R** and have a strong interest in reproducible research and project management methodologies, which support efficiency and collaboration in research.
 
-\
 <!-- **Contact and Links**:   -->
 Email: Takaaki.Kishida@unige.ch  
 [CV](cv/index.qmd) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=PE0bnFAAAAAJ){target="_blank"} | [ORCID](https://orcid.org/0009-0002-1698-6399){target="_blank"} | [GitHub](https://github.com/takaakikishida){target="_blank"} | [GitHub Gist](https://gist.github.com/takaakikishida){target="_blank"} | [LinkedIn](https://www.linkedin.com/in/takaakikishida/){target="_blank"}  

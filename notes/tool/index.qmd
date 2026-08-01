@@ -9,11 +9,7 @@ title: "Tools"
 body-classes: page-title-centered
 ---
 
-\
-
 Here are the tools I use for research. 
-
-\
 
 ## Productivity
 
