@@ -3,9 +3,7 @@ project:
   output-dir: docs
   resources:
     - js/**
-    - image/icon/favicon.ico
-    - image/icon/favicon-16x16.png
-    - image/icon/favicon-32x32.png
+    - image/icon/site-icon.png
     - image/icon/apple-touch-icon.png
     - research/file/**
 
@@ -16,7 +14,7 @@ website:
   title: "Takaaki Kishida"
   description: "PhD Candidate in Economics"
   site-url: https://takaakikishida.github.io/
-  favicon: /image/icon/favicon.ico
+  favicon: /image/icon/site-icon.png
   search: false
   navbar:
     background: "white"
