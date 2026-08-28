@@ -32,6 +32,11 @@ nav.navbar {
   background-color: transparent !important;
 }
 
+/* The home page has no visible title, so it should not reserve title spacing. */
+#title-block-header:empty {
+  margin: 0;
+}
+
 p {
   margin-bottom: 0.85rem;
 }
