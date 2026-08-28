@@ -7,11 +7,6 @@ title: ""
 
 ::: {.column width="23%"}
 ![](/image/photo_2.jpg){.profile-pic fig-alt="Portrait of Takaaki Kishida"}
-
-<!-- ### Takaaki Kishida -->
-<span class="profile-name">**Takaaki Kishida**</span><br>
-<!-- <span style="font-size: 14px;">PhD Student</span>   -->
-<!-- <span style="font-size: 14px;">University of Geneva</span> -->
 :::
 
 ::: {.column width="77%"}
@@ -34,14 +29,13 @@ Email: Takaaki.Kishida@unige.ch
 
 
 ### Recent News
-- **Publication**: [Deforestation and Children: Consequences for Paediatric Malaria and Educational Attainment in Indonesia](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"} (2024, *Journal of Development Studies*)
-![](/image/forest_loss_2012.jpeg){fig-alt="Forest loss across Indonesia"}
+- **Publication**: [Deforestation and Children](https://www.tandfonline.com/doi/full/10.1080/00220388.2024.2404561){target="_blank"} (2024, *Journal of Development Studies*)
 
 
 ### Other Works and Activities
 - **Package** 📦: [`{easysum}`](https://github.com/takaakikishida/easysum){target="_blank"} Easy-to-use (wrapper) functions for summary statistics in R
 - **Note** 📖: My [Tools](notes/tools/index.qmd)
-- **Note** 📖: [Project Management](notes/project_management/)
+- **Note** 📖: [Project Management](notes/project_management/index.qmd)
 - **Note** 📖: Replication and translation exercises
 - **Shiny App** 🗺️: [Interactive map](https://takaakikishida.shinyapps.io/swiss_maps/){target="_blank"} of my favorite places in Switzerland
 - **Marathon** 🏃: I have completed the [Geneva Marathon](https://www.generaligenevemarathon.com/en) (2025, 26) and [Lausanne Half](https://en.lausanne-marathon.com/) (2025). 

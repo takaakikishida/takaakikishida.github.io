@@ -6,11 +6,11 @@ body-classes: "page-title-centered section-spacing-wide"
 
 ## Data Analysis
 
-- [Flexible Regression Outputs with `{fixest}`](flexible_fixest/)
+- [Flexible Regression Outputs with `{fixest}`](flexible_fixest/index.qmd)
 
 
 ## Management and Coding
 
 - [Tools](tools/index.qmd)
-- [Project Management](project_management/) (continuously updated)
+- [Project Management](project_management/index.qmd) (continuously updated)
 - GitHub Projects

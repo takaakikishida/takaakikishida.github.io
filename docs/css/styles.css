@@ -4,7 +4,12 @@
 ================================== */
 
 body {
-  font-size: 0.8875em;
+  font-size: 0.875em;
+  line-height: 1.5;
+}
+
+p {
+  margin-bottom: 0.85rem;
 }
 
 
@@ -14,10 +19,12 @@ body {
 
 h1 {
   font-size: 1.95em; /* default ~2.5em */
+  font-weight: 500;
 }
 
 h2 {
   font-size: 1.25em;
+  font-weight: 500;
   margin-top: 45px;
 }
 
@@ -28,13 +35,19 @@ main.content > section:first-of-type > h2:nth-child(1) {
 
 h3 {
   font-size: 1.15em; /* default ~1.75em */
+  font-weight: 500;
   margin-top: 35px;
 }
 
-/* Shared page-level styles formerly duplicated in individual QMD headers */
-.page-title-centered h1.title {
-  text-align: center;
-  margin-top: 15px;
+/* Section-page titles use the same type family as the rest of the site. */
+body.fullcontent.page-title-centered h1.title {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .author-self {
@@ -70,15 +83,132 @@ ol > li br {
    Layout: Grid & Top Section
 ================================== */
 
+/*
+ * Keep the navbar, every main-content layout, and the margin sidebar on one
+ * shared set of grid lines. These dimensions closely preserve Quarto's
+ * previous ~805px body and ~215px margin-sidebar widths.
+ */
+:root {
+  --site-body-width: 47.75rem;
+  --site-sidebar-gap: 1.33rem;
+  --site-sidebar-width: 12.65rem;
+  --site-edge-padding: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  #quarto-content.page-columns,
+  nav.navbar {
+    display: grid;
+    grid-template-columns:
+      [screen-start] minmax(var(--site-edge-padding), 1fr)
+      [page-start body-start body-content-start] minmax(500px, var(--site-body-width))
+      [body-content-end body-end] var(--site-sidebar-gap)
+      [sidebar-start] minmax(0, var(--site-sidebar-width))
+      [page-end] minmax(var(--site-edge-padding), 1fr)
+      [screen-end];
+  }
+
+  /* Pages without a real sidebar center the body instead of reserving dead space. */
+  body.fullcontent #quarto-content.page-columns,
+  body.fullcontent nav.navbar {
+    grid-template-columns:
+      [screen-start] minmax(var(--site-edge-padding), 1fr)
+      [page-start body-start body-content-start] minmax(500px, var(--site-body-width))
+      [body-content-end body-end page-end] minmax(var(--site-edge-padding), 1fr)
+      [screen-end];
+  }
+
+  #quarto-content.page-columns > main.content,
+  #quarto-content.page-columns > main.content.column-page,
+  #quarto-content.page-columns > main.content.column-page-left,
+  #quarto-content.page-columns > main.content.column-page-right,
+  #quarto-content.page-columns.page-layout-full > main.content,
+  #quarto-content.page-columns.page-layout-article > main.content {
+    grid-column: body-content-start / body-content-end !important;
+    width: 100%;
+    max-width: none;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  #quarto-content.page-columns > #quarto-margin-sidebar {
+    grid-column: sidebar-start / page-end !important;
+    width: 100%;
+    max-width: none;
+  }
+
+  nav.navbar {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  nav.navbar > .navbar-container {
+    grid-column: body-content-start / page-end;
+    width: 100%;
+    max-width: none;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  body.fullcontent nav.navbar > .navbar-container {
+    grid-column: body-content-start / body-content-end;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  #quarto-content.page-columns {
+    display: grid;
+    grid-template-columns:
+      [screen-start] var(--site-edge-padding)
+      [page-start body-start body-content-start] minmax(0, 1fr)
+      [body-content-end body-end page-end] var(--site-edge-padding)
+      [screen-end];
+  }
+
+  nav.navbar {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  nav.navbar > .navbar-container {
+    width: 100%;
+    max-width: none;
+    padding-right: var(--site-edge-padding);
+    padding-left: var(--site-edge-padding);
+  }
+
+  nav.navbar > .navbar-container > .navbar-brand-container {
+    order: 1 !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  nav.navbar > .navbar-container > .navbar-toggler {
+    order: 3 !important;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  #quarto-content.page-columns > main.content,
+  #quarto-content.page-columns > main.content.column-page,
+  #quarto-content.page-columns > main.content.column-page-left,
+  #quarto-content.page-columns > main.content.column-page-right,
+  #quarto-content.page-columns.page-layout-full > main.content,
+  #quarto-content.page-columns.page-layout-article > main.content {
+    grid-column: body-content-start / body-content-end !important;
+    width: auto;
+    max-width: none;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
 /* Ensures the profile image scales proportionally and aligns with text */
 .profile-pic {
   max-width: 100%;
   height: auto;
   vertical-align: middle; /* Aligns vertically with surrounding text */
-}
-
-.profile-name {
-  font-size: 21px;
 }
 
 /* Creates a horizontal layout with top alignment and spacing between columns */
@@ -140,6 +270,8 @@ a {
 /* Adds underline only when hovering over a link to improve interactivity feedback */
 a:hover {
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
 }
 
 /* Expandable publication details on the Research page */
@@ -199,6 +331,12 @@ a:hover {
   align-items: start;
 }
 
+@media (min-width: 992px) {
+  .fieldwork-gallery {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 .fieldwork-gallery p {
   margin: 0;
 }
@@ -221,16 +359,16 @@ a:hover {
 ================================== */
 
 /* Active page tab */
-.nav-link.active {
-  font-weight: bold;
+nav.navbar .nav-link.active {
+  font-weight: 600;
   background-color: transparent;
   text-decoration: none;
   /* color: white; */
 }
 
 /* Hover effect on navbar links */
-.nav-link:hover {
-  font-weight: bold;
+nav.navbar .nav-link:hover {
+  font-weight: 500;
   background-color: transparent;
   text-decoration: none;
   /* color: white; */
@@ -238,14 +376,45 @@ a:hover {
 
 /* Remove underline from the site title link (normal state) */
 .navbar-brand {
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
 }
 
 /* Remove underline from the site title link on hover */
 .navbar-brand:hover {
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
+}
+
+
+/* ================================
+   Article TOC
+================================== */
+
+#quarto-margin-sidebar #toc-title {
+  font-size: 0.765rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 0.4rem;
+}
+
+#quarto-margin-sidebar #TOC .nav-link {
+  font-size: 0.765rem;
+  font-weight: 300;
+  line-height: 1.55;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
+}
+
+#quarto-margin-sidebar #TOC .nav-link.active {
+  font-weight: 400;
+}
+
+
+/* Add the conventional period after numbered headings and TOC entries. */
+.header-section-number::after {
+  content: ".";
+  margin-right: 0.18em;
 }
 
 
