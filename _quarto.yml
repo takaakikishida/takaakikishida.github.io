@@ -35,7 +35,7 @@ format:
     theme:
       - cosmo
       - css/theme.scss
-    css: css/styles.css
+    css: css/site-20260828.css
     include-in-header: includes/favicon.html
     toc: false
 

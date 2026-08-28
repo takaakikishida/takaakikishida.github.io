@@ -4,11 +4,11 @@ document.querySelectorAll(".publication-toggle").forEach((button) => {
     const detail = targetId ? document.getElementById(targetId) : null;
     const symbol = button.querySelector(".publication-toggle-symbol");
 
-    if (!detail || !symbol) return;
+    if (!detail) return;
 
     const isOpen = button.getAttribute("aria-expanded") === "true";
     button.setAttribute("aria-expanded", String(!isOpen));
-    symbol.textContent = isOpen ? "+" : "−";
+    if (symbol) symbol.textContent = isOpen ? "+" : "−";
     detail.hidden = isOpen;
   });
 });
