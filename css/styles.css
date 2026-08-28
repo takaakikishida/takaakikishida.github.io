@@ -8,6 +8,30 @@ body {
   line-height: 1.5;
 }
 
+/* Subtle graph-paper grid, matching the reference site's 32px rhythm. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.55;
+  background-image:
+    linear-gradient(rgb(215, 224, 213) 0.5px, transparent 0.5px),
+    linear-gradient(90deg, rgb(215, 224, 213) 0.5px, transparent 0.5px);
+  background-size: 32px 32px;
+}
+
+#quarto-content,
+nav.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+nav.navbar {
+  background-color: transparent !important;
+}
+
 p {
   margin-bottom: 0.85rem;
 }
