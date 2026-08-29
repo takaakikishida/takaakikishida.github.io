@@ -28,7 +28,6 @@ ul.task-list li input[type="checkbox"] {
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
-<link href="./image/icon/favicon-tk-square.png" rel="icon" type="image/png">
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -55,7 +54,90 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link rel="icon" type="image/png" sizes="32x32" href="./image/icon/favicon-tk-20260828-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./image/icon/favicon-tk-20260828-16.png">
+<link rel="shortcut icon" type="image/x-icon" href="./image/icon/favicon-tk-20260828.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="./image/icon/apple-touch-icon.png">
+<script>
+(() => {
+  if (window.location.protocol !== "file:") return;
+
+  window.document.addEventListener("DOMContentLoaded", () => {
+    const toc = window.document.querySelector('nav.toc-active[role="doc-toc"]');
+    if (!toc) return;
+
+    const links = [...toc.querySelectorAll("a[data-scroll-target]")];
+    const nestedLists = [...toc.querySelectorAll("ul.collapse")];
+    const sections = links.map((link) => {
+      const target = link.getAttribute("data-scroll-target");
+      return target && target.startsWith("#")
+        ? window.document.getElementById(decodeURI(target.slice(1)))
+        : null;
+    });
+    const sidebar = window.document.getElementById("quarto-margin-sidebar");
+    let frame = null;
+
+    const update = () => {
+      frame = null;
+      const cutoff = window.scrollY + 200;
+      let activeIndex = 0;
+
+      sections.forEach((section, index) => {
+        if (section && section.offsetTop <= cutoff) activeIndex = index;
+      });
+
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1) {
+        activeIndex = links.length - 1;
+      }
+
+      links.forEach((link, index) => {
+        link.classList.toggle("active", index === activeIndex);
+      });
+
+      /* Quarto's module normally expands these lists. It is blocked on file://. */
+      nestedLists.forEach((list) => list.classList.add("show"));
+
+      /* Keep parent sections highlighted while a subsection is active. */
+      let activeItem = links[activeIndex].closest("li");
+      while (activeItem) {
+        const parentList = activeItem.parentElement;
+        if (!parentList || !parentList.classList.contains("collapse")) break;
+
+        parentList.classList.add("show");
+        const parentItem = parentList.parentElement;
+        const parentLink = parentItem
+          ? parentItem.querySelector(":scope > a[data-scroll-target]")
+          : null;
+        if (parentLink) parentLink.classList.add("active");
+        activeItem = parentItem;
+      }
+
+      if (sidebar) {
+        const active = links[activeIndex];
+        const activeRect = active.getBoundingClientRect();
+        const sidebarRect = sidebar.getBoundingClientRect();
+        const padding = 12;
+
+        if (activeRect.top < sidebarRect.top + padding) {
+          sidebar.scrollTop -= sidebarRect.top + padding - activeRect.top;
+        } else if (activeRect.bottom > sidebarRect.bottom - padding) {
+          sidebar.scrollTop += activeRect.bottom - sidebarRect.bottom + padding;
+        }
+      }
+    };
+
+    const requestUpdate = () => {
+      if (frame === null) frame = window.requestAnimationFrame(update);
+    };
+
+    window.document.addEventListener("scroll", requestUpdate, { passive: true });
+    window.addEventListener("resize", requestUpdate, { passive: true });
+    window.addEventListener("hashchange", requestUpdate);
+    nestedLists.forEach((list) => list.classList.add("show"));
+    update();
+  });
+})();
+</script>
 
 
 <link rel="stylesheet" href="css/site-20260828.css">

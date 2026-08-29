@@ -27,6 +27,10 @@ pacman::p_load(tidyverse, fixest)
 
 ### Read data
 
+The example uses the CPS longitudinal dataset.[^cps-source]
+
+[^cps-source]: Source: [`cps_long.csv` from the stata2R project](https://github.com/stata2r/stata2r.github.io/blob/main/data/cps_long.csv).
+
 ```{r}
 df <- readr::read_csv("https://raw.githubusercontent.com/stata2r/stata2r.github.io/main/data/cps_long.csv")
 

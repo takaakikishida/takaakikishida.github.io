@@ -119,9 +119,9 @@ ol > li br {
 ================================== */
 
 /*
- * Keep the navbar, every main-content layout, and the margin sidebar on one
- * shared set of grid lines. These dimensions closely preserve Quarto's
- * previous ~805px body and ~215px margin-sidebar widths.
+ * Keep the navbar and every main-content layout on the same centered body
+ * lines. The TOC and margin notes use the free space to the body's right, so
+ * enabling either one never shifts the navbar or the article itself.
  */
 :root {
   --site-body-width: 47.75rem;
@@ -137,20 +137,8 @@ ol > li br {
     grid-template-columns:
       [screen-start] minmax(var(--site-edge-padding), 1fr)
       [page-start body-start body-content-start] minmax(500px, var(--site-body-width))
-      [body-content-end body-end] var(--site-sidebar-gap)
-      [sidebar-start] minmax(0, var(--site-sidebar-width))
-      [page-end] minmax(var(--site-edge-padding), 1fr)
-      [screen-end];
-  }
-
-  /* Pages without a real sidebar center the body instead of reserving dead space. */
-  body.fullcontent #quarto-content.page-columns,
-  body.fullcontent nav.navbar {
-    grid-template-columns:
-      [screen-start] minmax(var(--site-edge-padding), 1fr)
-      [page-start body-start body-content-start] minmax(500px, var(--site-body-width))
-      [body-content-end body-end page-end] minmax(var(--site-edge-padding), 1fr)
-      [screen-end];
+      [body-content-end body-end sidebar-start] minmax(var(--site-edge-padding), 1fr)
+      [page-end screen-end];
   }
 
   #quarto-content.page-columns > main.content,
@@ -166,10 +154,41 @@ ol > li br {
     margin-left: 0;
   }
 
+  /*
+   * Article sections otherwise create a second, narrower Quarto page grid.
+   * Keep article prose on the full site body, then anchor margin notes to the
+   * body's right edge without making them consume body width.
+   */
+  #quarto-content.page-layout-article > main.content,
+  #quarto-content.page-layout-article > main.content .page-columns {
+    display: block;
+  }
+
+  #quarto-content.page-layout-article > main.content .page-columns {
+    position: relative;
+  }
+
+  #quarto-content.page-layout-article > main.content .column-margin {
+    position: absolute;
+    left: calc(100% + var(--site-sidebar-gap));
+    width: min(
+      var(--site-sidebar-width),
+      max(0px, calc(50vw - (var(--site-body-width) / 2) - var(--site-sidebar-gap) - 0.5rem))
+    );
+    max-width: var(--site-sidebar-width);
+  }
+
   #quarto-content.page-columns > #quarto-margin-sidebar {
     grid-column: sidebar-start / page-end !important;
-    width: 100%;
-    max-width: none;
+    justify-self: start;
+    align-self: start;
+    position: sticky;
+    top: 0;
+    width: min(var(--site-sidebar-width), calc(100% - var(--site-sidebar-gap)));
+    max-width: var(--site-sidebar-width);
+    max-height: 100vh;
+    margin-left: var(--site-sidebar-gap);
+    overflow-y: auto;
   }
 
   nav.navbar {
@@ -178,15 +197,11 @@ ol > li br {
   }
 
   nav.navbar > .navbar-container {
-    grid-column: body-content-start / page-end;
+    grid-column: body-content-start / body-content-end;
     width: 100%;
     max-width: none;
     padding-right: 0;
     padding-left: 0;
-  }
-
-  body.fullcontent nav.navbar > .navbar-container {
-    grid-column: body-content-start / body-content-end;
   }
 
 }
@@ -441,6 +456,11 @@ nav.navbar .nav-link:hover {
   line-height: 1.55;
   padding-top: 0.05rem;
   padding-bottom: 0.05rem;
+}
+
+#quarto-margin-sidebar #TOC > ul > li > ul > li > .nav-link {
+  margin-left: 0;
+  padding-left: calc(1.2em + 0.3rem);
 }
 
 #quarto-margin-sidebar #TOC .nav-link.active {

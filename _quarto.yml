@@ -4,7 +4,9 @@ project:
   resources:
     - js/**
     - image/icon/site-icon.png
-    - image/icon/favicon-tk-square.png
+    - image/icon/favicon-tk-20260828-16.png
+    - image/icon/favicon-tk-20260828-32.png
+    - image/icon/favicon-tk-20260828.ico
     - image/icon/apple-touch-icon.png
     - research/file/**
 
@@ -15,7 +17,6 @@ website:
   title: "Takaaki Kishida"
   description: "PhD Candidate in Economics"
   site-url: https://takaakikishida.github.io/
-  favicon: image/icon/favicon-tk-square.png
   search: false
   navbar:
     background: "white"
@@ -36,8 +37,11 @@ format:
       - cosmo
       - css/theme.scss
     css: css/site-20260828.css
-    include-in-header: includes/favicon.html
+    include-in-header:
+      - includes/favicon.html
+      - includes/toc-file-scrollspy.html
     toc: false
+    reference-location: margin
 
 lang: en
 
